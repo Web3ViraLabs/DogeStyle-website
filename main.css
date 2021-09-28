@@ -1,0 +1,5142 @@
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+  img {
+    border-style: none;
+  }
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button {
+    overflow: visible;
+  }
+  button {
+    text-transform: none;
+  }
+  button {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  button {
+    cursor: pointer;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  div {
+    max-width: none;
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.erCruP {
+  color: rgb(255, 255, 255);
+  font: unset;
+  font-feature-settings: unset;
+  font-kerning: unset;
+  font-optical-sizing: unset;
+  font-variation-settings: unset;
+  forced-color-adjust: unset;
+  text-orientation: unset;
+  text-rendering: unset;
+  -webkit-font-smoothing: unset;
+  -webkit-locale: unset;
+  -webkit-text-orientation: unset;
+  -webkit-writing-mode: unset;
+  writing-mode: unset;
+  zoom: unset;
+  accent-color: unset;
+  align-content: unset;
+  align-items: center;
+  place-self: unset;
+  alignment-baseline: unset;
+  animation: unset;
+  appearance: unset;
+  aspect-ratio: unset;
+  backdrop-filter: unset;
+  backface-visibility: unset;
+  background: rgb(255, 0, 96);
+  background-blend-mode: unset;
+  baseline-shift: unset;
+  block-size: unset;
+  border-block: unset;
+  border: none;
+  border-radius: 100px;
+  border-collapse: unset;
+  border-end-end-radius: unset;
+  border-end-start-radius: unset;
+  border-inline: unset;
+  border-start-end-radius: unset;
+  border-start-start-radius: unset;
+  inset: unset;
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+  box-sizing: unset;
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  buffered-rendering: unset;
+  caption-side: unset;
+  caret-color: unset;
+  clear: unset;
+  clip: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation: unset;
+  color-interpolation-filters: unset;
+  color-rendering: unset;
+  color-scheme: unset;
+  columns: unset;
+  column-fill: unset;
+  gap: unset;
+  column-rule: unset;
+  column-span: unset;
+  contain: unset;
+  contain-intrinsic-size: unset;
+  content: unset;
+  content-visibility: unset;
+  counter-increment: unset;
+  counter-reset: unset;
+  counter-set: unset;
+  cursor: unset;
+  cx: unset;
+  cy: unset;
+  d: unset;
+  display: flex;
+  dominant-baseline: unset;
+  empty-cells: unset;
+  fill: unset;
+  fill-opacity: unset;
+  fill-rule: unset;
+  filter: unset;
+  flex: unset;
+  flex-flow: unset;
+  float: unset;
+  flood-color: unset;
+  flood-opacity: unset;
+  grid: unset;
+  grid-area: unset;
+  height: unset;
+  hyphens: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  inline-size: unset;
+  inset-block: unset;
+  inset-inline: unset;
+  isolation: unset;
+  justify-content: center;
+  justify-items: unset;
+  letter-spacing: unset;
+  lighting-color: unset;
+  line-break: unset;
+  list-style: unset;
+  margin-block: unset;
+  margin: unset;
+  margin-inline: unset;
+  marker: unset;
+  mask: unset;
+  mask-type: unset;
+  max-block-size: unset;
+  max-height: unset;
+  max-inline-size: unset;
+  max-width: unset;
+  min-block-size: unset;
+  min-height: unset;
+  min-inline-size: unset;
+  min-width: unset;
+  mix-blend-mode: unset;
+  object-fit: unset;
+  object-position: unset;
+  offset: unset;
+  opacity: unset;
+  order: unset;
+  origin-trial-test-property: unset;
+  orphans: unset;
+  outline: unset;
+  outline-offset: unset;
+  overflow-anchor: unset;
+  overflow-clip-margin: unset;
+  overflow-wrap: unset;
+  overflow: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior: unset;
+  padding-block: unset;
+  padding: 12px 0px;
+  padding-inline: unset;
+  page: unset;
+  page-orientation: unset;
+  paint-order: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  pointer-events: unset;
+  position: unset;
+  quotes: unset;
+  r: unset;
+  resize: unset;
+  ruby-position: unset;
+  rx: unset;
+  ry: unset;
+  scroll-behavior: unset;
+  scroll-margin-block: unset;
+  scroll-margin: unset;
+  scroll-margin-inline: unset;
+  scroll-padding-block: unset;
+  scroll-padding: unset;
+  scroll-padding-inline: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scrollbar-gutter: unset;
+  shape-image-threshold: unset;
+  shape-margin: unset;
+  shape-outside: unset;
+  shape-rendering: unset;
+  size: unset;
+  speak: unset;
+  stop-color: unset;
+  stop-opacity: unset;
+  stroke: unset;
+  stroke-dasharray: unset;
+  stroke-dashoffset: unset;
+  stroke-linecap: unset;
+  stroke-linejoin: unset;
+  stroke-miterlimit: unset;
+  stroke-opacity: unset;
+  stroke-width: unset;
+  tab-size: unset;
+  table-layout: unset;
+  text-align: unset;
+  text-align-last: unset;
+  text-anchor: unset;
+  text-combine-upright: unset;
+  text-decoration: unset;
+  text-decoration-skip-ink: unset;
+  text-indent: unset;
+  text-overflow: unset;
+  text-shadow: unset;
+  text-size-adjust: unset;
+  text-transform: unset;
+  text-underline-offset: unset;
+  text-underline-position: unset;
+  touch-action: unset;
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  transition: unset;
+  user-select: unset;
+  vector-effect: unset;
+  vertical-align: unset;
+  visibility: unset;
+  -webkit-app-region: unset;
+  border-spacing: unset;
+  -webkit-border-image: unset;
+  -webkit-box-align: center;
+  -webkit-box-decoration-break: unset;
+  -webkit-box-direction: unset;
+  -webkit-box-flex: unset;
+  -webkit-box-ordinal-group: unset;
+  -webkit-box-orient: unset;
+  -webkit-box-pack: center;
+  -webkit-box-reflect: unset;
+  -webkit-highlight: unset;
+  -webkit-hyphenate-character: unset;
+  -webkit-line-break: unset;
+  -webkit-line-clamp: unset;
+  -webkit-mask-box-image: unset;
+  -webkit-mask: unset;
+  -webkit-mask-composite: unset;
+  -webkit-perspective-origin-x: unset;
+  -webkit-perspective-origin-y: unset;
+  -webkit-print-color-adjust: unset;
+  -webkit-rtl-ordering: unset;
+  -webkit-ruby-position: unset;
+  -webkit-tap-highlight-color: unset;
+  -webkit-text-combine: unset;
+  -webkit-text-decorations-in-effect: unset;
+  -webkit-text-emphasis: unset;
+  -webkit-text-emphasis-position: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-security: unset;
+  -webkit-text-stroke: unset;
+  -webkit-transform-origin-x: unset;
+  -webkit-transform-origin-y: unset;
+  -webkit-transform-origin-z: unset;
+  -webkit-user-drag: unset;
+  -webkit-user-modify: unset;
+  white-space: unset;
+  widows: unset;
+  width: 190px;
+  will-change: unset;
+  word-break: unset;
+  word-spacing: unset;
+  x: unset;
+  y: unset;
+  z-index: unset;
+}
+.erCruP:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 96);
+}
+.erCruP span {
+  margin-right: 12px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 22px;
+}
+.oeiUh {
+  color: rgb(255, 255, 255);
+  font: unset;
+  font-feature-settings: unset;
+  font-kerning: unset;
+  font-optical-sizing: unset;
+  font-variation-settings: unset;
+  forced-color-adjust: unset;
+  text-orientation: unset;
+  text-rendering: unset;
+  -webkit-font-smoothing: unset;
+  -webkit-locale: unset;
+  -webkit-text-orientation: unset;
+  -webkit-writing-mode: unset;
+  writing-mode: unset;
+  zoom: unset;
+  accent-color: unset;
+  align-content: unset;
+  align-items: center;
+  place-self: unset;
+  alignment-baseline: unset;
+  animation: unset;
+  appearance: unset;
+  aspect-ratio: unset;
+  backdrop-filter: unset;
+  backface-visibility: unset;
+  background: rgb(18, 21, 27);
+  background-blend-mode: unset;
+  baseline-shift: unset;
+  block-size: unset;
+  border-block: unset;
+  border: 3px solid rgb(255, 0, 96);
+  border-radius: 100px;
+  border-collapse: unset;
+  border-end-end-radius: unset;
+  border-end-start-radius: unset;
+  border-inline: unset;
+  border-start-end-radius: unset;
+  border-start-start-radius: unset;
+  inset: unset;
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+  box-sizing: unset;
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  buffered-rendering: unset;
+  caption-side: unset;
+  caret-color: unset;
+  clear: unset;
+  clip: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation: unset;
+  color-interpolation-filters: unset;
+  color-rendering: unset;
+  color-scheme: unset;
+  columns: unset;
+  column-fill: unset;
+  gap: unset;
+  column-rule: unset;
+  column-span: unset;
+  contain: unset;
+  contain-intrinsic-size: unset;
+  content: unset;
+  content-visibility: unset;
+  counter-increment: unset;
+  counter-reset: unset;
+  counter-set: unset;
+  cursor: unset;
+  cx: unset;
+  cy: unset;
+  d: unset;
+  display: flex;
+  dominant-baseline: unset;
+  empty-cells: unset;
+  fill: unset;
+  fill-opacity: unset;
+  fill-rule: unset;
+  filter: unset;
+  flex: unset;
+  flex-flow: unset;
+  float: unset;
+  flood-color: unset;
+  flood-opacity: unset;
+  grid: unset;
+  grid-area: unset;
+  height: unset;
+  hyphens: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  inline-size: unset;
+  inset-block: unset;
+  inset-inline: unset;
+  isolation: unset;
+  justify-content: center;
+  justify-items: unset;
+  letter-spacing: unset;
+  lighting-color: unset;
+  line-break: unset;
+  list-style: unset;
+  margin-block: unset;
+  margin: unset;
+  margin-inline: unset;
+  marker: unset;
+  mask: unset;
+  mask-type: unset;
+  max-block-size: unset;
+  max-height: unset;
+  max-inline-size: unset;
+  max-width: unset;
+  min-block-size: unset;
+  min-height: unset;
+  min-inline-size: unset;
+  min-width: unset;
+  mix-blend-mode: unset;
+  object-fit: unset;
+  object-position: unset;
+  offset: unset;
+  opacity: unset;
+  order: unset;
+  origin-trial-test-property: unset;
+  orphans: unset;
+  outline: unset;
+  outline-offset: unset;
+  overflow-anchor: unset;
+  overflow-clip-margin: unset;
+  overflow-wrap: unset;
+  overflow: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior: unset;
+  padding-block: unset;
+  padding: 12px 0px;
+  padding-inline: unset;
+  page: unset;
+  page-orientation: unset;
+  paint-order: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  pointer-events: unset;
+  position: unset;
+  quotes: unset;
+  r: unset;
+  resize: unset;
+  ruby-position: unset;
+  rx: unset;
+  ry: unset;
+  scroll-behavior: unset;
+  scroll-margin-block: unset;
+  scroll-margin: unset;
+  scroll-margin-inline: unset;
+  scroll-padding-block: unset;
+  scroll-padding: unset;
+  scroll-padding-inline: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scrollbar-gutter: unset;
+  shape-image-threshold: unset;
+  shape-margin: unset;
+  shape-outside: unset;
+  shape-rendering: unset;
+  size: unset;
+  speak: unset;
+  stop-color: unset;
+  stop-opacity: unset;
+  stroke: unset;
+  stroke-dasharray: unset;
+  stroke-dashoffset: unset;
+  stroke-linecap: unset;
+  stroke-linejoin: unset;
+  stroke-miterlimit: unset;
+  stroke-opacity: unset;
+  stroke-width: unset;
+  tab-size: unset;
+  table-layout: unset;
+  text-align: unset;
+  text-align-last: unset;
+  text-anchor: unset;
+  text-combine-upright: unset;
+  text-decoration: unset;
+  text-decoration-skip-ink: unset;
+  text-indent: unset;
+  text-overflow: unset;
+  text-shadow: unset;
+  text-size-adjust: unset;
+  text-transform: unset;
+  text-underline-offset: unset;
+  text-underline-position: unset;
+  touch-action: unset;
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  transition: unset;
+  user-select: unset;
+  vector-effect: unset;
+  vertical-align: unset;
+  visibility: unset;
+  -webkit-app-region: unset;
+  border-spacing: unset;
+  -webkit-border-image: unset;
+  -webkit-box-align: center;
+  -webkit-box-decoration-break: unset;
+  -webkit-box-direction: unset;
+  -webkit-box-flex: unset;
+  -webkit-box-ordinal-group: unset;
+  -webkit-box-orient: unset;
+  -webkit-box-pack: center;
+  -webkit-box-reflect: unset;
+  -webkit-highlight: unset;
+  -webkit-hyphenate-character: unset;
+  -webkit-line-break: unset;
+  -webkit-line-clamp: unset;
+  -webkit-mask-box-image: unset;
+  -webkit-mask: unset;
+  -webkit-mask-composite: unset;
+  -webkit-perspective-origin-x: unset;
+  -webkit-perspective-origin-y: unset;
+  -webkit-print-color-adjust: unset;
+  -webkit-rtl-ordering: unset;
+  -webkit-ruby-position: unset;
+  -webkit-tap-highlight-color: unset;
+  -webkit-text-combine: unset;
+  -webkit-text-decorations-in-effect: unset;
+  -webkit-text-emphasis: unset;
+  -webkit-text-emphasis-position: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-security: unset;
+  -webkit-text-stroke: unset;
+  -webkit-transform-origin-x: unset;
+  -webkit-transform-origin-y: unset;
+  -webkit-transform-origin-z: unset;
+  -webkit-user-drag: unset;
+  -webkit-user-modify: unset;
+  white-space: unset;
+  widows: unset;
+  width: 270px;
+  will-change: unset;
+  word-break: unset;
+  word-spacing: unset;
+  x: unset;
+  y: unset;
+  z-index: unset;
+}
+.oeiUh:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 96);
+}
+.oeiUh span {
+  margin-right: 12px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 22px;
+}
+.hwvnvs {
+  height: 92px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(18, 21, 27);
+  padding-top: 12px;
+  z-index: 5;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: fixed;
+}
+.dJXsSm {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 12px 36px;
+}
+@media only screen and (max-width: 1012px) {
+  .dJXsSm {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.kksiKu {
+  width: 72px;
+  height: 58px;
+}
+@media only screen and (max-width: 400px) {
+  .kksiKu {
+    display: none;
+  }
+}
+.jcTaHb {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+@media only screen and (max-width: 1012px) {
+  .jcTaHb {
+    display: none;
+  }
+}
+.hydYaP {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  margin: 0px 24px;
+  line-height: 130%;
+}
+.hydYaP:hover {
+  cursor: pointer;
+  color: rgb(255, 0, 97);
+  text-shadow: rgba(255, 0, 97, 0.7) 0px 0px 31px,
+    rgba(255, 0, 97, 0.7) 0px 0px 46px, rgba(255, 0, 97, 0.7) 0px 0px 86px;
+}
+.kMthTr {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.kMthTr button {
+  margin-right: 24px;
+}
+@media only screen and (max-width: 1012px) {
+  .kMthTr {
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.esoBHA {
+  display: flex;
+  width: 100%;
+  background: rgb(19, 19, 19);
+  opacity: 0;
+  z-index: -20;
+  transition: all 0.5s ease 0s;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 0px;
+  pointer-events: none;
+}
+.dgaHRO {
+  padding: 36px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 36px;
+  line-height: 130%;
+}
+.dgaHRO:hover {
+  cursor: default;
+  color: rgb(255, 0, 97);
+  text-shadow: rgba(255, 0, 97, 0.7) 0px 0px 31px,
+    rgba(255, 0, 97, 0.7) 0px 0px 46px, rgba(255, 0, 97, 0.7) 0px 0px 86px;
+}
+.dJdFwe {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 85%, transparent 100%);
+}
+.bAVzgZ {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+  z-index: -5;
+}
+.bAVzgZ::after {
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 85%, transparent 100%);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.jibPFy {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+.DykGo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: 3.5px;
+  animation: 2s ease 0s infinite alternate none running flicker;
+  color: rgb(255, 0, 96);
+  z-index: 1;
+}
+@media only screen and (max-width: 1100px) {
+  .DykGo {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .DykGo {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .DykGo {
+    font-size: 20px;
+  }
+}
+.jEEywD {
+  margin-top: 110px;
+  width: 395px;
+  height: 416px;
+  padding-bottom: 32px;
+  z-index: 1;
+}
+@media only screen and (max-width: 500px) {
+  .jEEywD {
+    width: 240px;
+    height: auto;
+  }
+}
+.iPexDg {
+  width: 1000px;
+  z-index: 1;
+}
+@media only screen and (max-width: 1400px) {
+  .iPexDg {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .iPexDg {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .iPexDg {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .iPexDg {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .iPexDg {
+    width: 100%;
+  }
+}
+.kFmqyc {
+  display: flex;
+  align-items: flex-start;
+}
+.syKsX {
+  display: block;
+  height: 49px;
+  width: 49px;
+  position: relative;
+  font-size: 22px;
+  user-select: none;
+}
+.fxKhJq {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 49px;
+  width: 49px;
+  background: rgb(19, 19, 19);
+  border: 2px solid rgb(255, 0, 97);
+  border-radius: 50%;
+}
+.fxKhJq::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: rgb(255, 0, 97);
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: rgb(255, 0, 97) 0px 0px 31px, rgb(255, 0, 97) 0px 0px 46px,
+    rgb(255, 0, 97) 0px 0px 86px;
+}
+.bxWEWA {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 49px;
+  width: 49px;
+  background: rgb(19, 19, 19);
+  border: 2px solid rgb(255, 0, 97);
+  border-radius: 50%;
+}
+.bxWEWA::after {
+  content: "";
+  position: absolute;
+  display: none;
+  background: rgb(19, 19, 19);
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: rgb(255, 0, 97) 0px 0px 31px, rgb(255, 0, 97) 0px 0px 46px,
+    rgb(255, 0, 97) 0px 0px 86px;
+}
+.eEJWPz {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.eraKfR {
+  display: flex;
+}
+.hKymwP {
+  display: flex;
+  flex-direction: column;
+}
+.biCrYn {
+  position: relative;
+  width: 50%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 960px) {
+  .biCrYn {
+    margin-bottom: 64px;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+}
+.ccTnQh {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 960px) {
+  .ccTnQh {
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+}
+.kpPvTx {
+  width: 324px;
+  height: 324px;
+  margin: 0px 36px;
+  max-width: none;
+}
+@media only screen and (max-width: 960px) {
+  .kpPvTx {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .kpPvTx {
+    width: 300px;
+    height: 300px;
+  }
+}
+.lpaEYv {
+  position: absolute;
+  inset: 0px;
+  margin: auto;
+  width: 212px;
+}
+@media only screen and (max-width: 400px) {
+  .lpaEYv {
+    width: 200px;
+  }
+}
+.cxbltl {
+  text-align: left;
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  line-height: 180%;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25px;
+  margin-left: 58px;
+}
+@media only screen and (max-width: 600px) {
+  .cxbltl {
+    font-size: 22px;
+  }
+}
+.hzzSzX {
+  width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .hzzSzX {
+    width: 300px;
+  }
+}
+.kydRHc {
+  position: absolute;
+  right: 75px;
+  top: 295px;
+  height: 380px;
+}
+@media only screen and (max-width: 960px) {
+  .kydRHc {
+    display: none;
+  }
+}
+.fHUQtx {
+  position: absolute;
+  left: 65px;
+  top: 290px;
+  height: 350px;
+}
+@media only screen and (max-width: 960px) {
+  .fHUQtx {
+    display: none;
+  }
+}
+.hpRDUw {
+  position: absolute;
+  left: -350px;
+  top: -450px;
+  width: 100%;
+}
+@media only screen and (max-width: 960px) {
+  .hpRDUw {
+    display: none;
+  }
+}
+.bojiJp {
+  position: absolute;
+  right: 100px;
+  top: calc(100% - 28px);
+}
+@media only screen and (max-width: 960px) {
+  .bojiJp {
+    display: none;
+  }
+}
+.bYgUJS {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.dvHFX {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  margin: 0px 64px;
+}
+@media only screen and (max-width: 770px) {
+  .dvHFX {
+    flex-direction: column;
+  }
+}
+.fDDjHD {
+  width: 300px;
+}
+.iehvjW {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-left: 45px;
+  color: white;
+}
+@media only screen and (max-width: 770px) {
+  .iehvjW {
+    flex-direction: column;
+    margin: 45px 0px 0px;
+  }
+}
+.hbusih {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.bmCiqb {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(255, 0, 96);
+  box-shadow: rgb(255, 0, 96) 0px 0px 14px;
+}
+.kpuxFf {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(41, 226, 174);
+  box-shadow: rgb(41, 226, 174) 0px 0px 14px;
+}
+.dRsyqq {
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: black;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.jKLUHq {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  font-size: 22px;
+  margin: 23px 0px;
+}
+.lRfdj {
+  position: absolute;
+  top: 120px;
+  right: -12px;
+  height: 400px;
+}
+@media only screen and (max-width: 500px) {
+  .lRfdj {
+    display: none;
+  }
+}
+.bwSYJA {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.kyvWZW {
+  width: 1100px;
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 1150px) {
+  .kyvWZW {
+    width: 950px;
+  }
+}
+.glZmJR {
+  position: absolute;
+  height: 680px;
+  left: -12px;
+  top: -540px;
+}
+@media only screen and (max-width: 1160px) {
+  .glZmJR {
+    display: none;
+  }
+}
+.cFSLxQ {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 90px 0px 0px;
+}
+.lmGFyU {
+  width: 72px;
+  height: 58px;
+}
+.jIfccS {
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 22px;
+  color: rgb(176, 176, 176);
+  margin-top: 32px;
+  z-index: 2;
+}
+.fqbJCS {
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 12px;
+  color: rgb(176, 176, 176);
+  margin-top: 32px;
+  z-index: 2;
+  width: 680px;
+}
+@media only screen and (max-width: 700px) {
+  .fqbJCS {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .fqbJCS {
+    font-size: 10px;
+    width: 320px;
+  }
+}
+.cdTyhF {
+  width: 520px;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+  .cdTyhF {
+    width: 90%;
+  }
+}
+.haQoIp {
+  position: absolute;
+  right: 0%;
+  height: 290px;
+  top: -50px;
+}
+@media only screen and (max-width: 800px) {
+  .haQoIp {
+    height: 230px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .haQoIp {
+    display: none;
+  }
+}
+.eJDRKz {
+  position: absolute;
+  left: 42px;
+  bottom: 0px;
+  height: 180px;
+}
+@media only screen and (max-width: 800px) {
+  .eJDRKz {
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .eJDRKz {
+    height: 30%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .eJDRKz {
+    display: none;
+  }
+}
+.hQhHpX {
+  margin: 32px 0px 48px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 10;
+}
+.hQhHpX svg {
+  margin: 0px 24px;
+  width: 40px;
+  height: 40px;
+}
+.hQhHpX svg:hover {
+  cursor: pointer;
+}
+.enlJuL {
+  display: flex;
+  width: 100%;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 64px 0px;
+}
+.fuJtcf {
+  width: 280px;
+}
+@media only screen and (max-width: 940px) {
+  .fuJtcf {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .fuJtcf {
+    display: none;
+  }
+}
+.jcqGXt {
+  width: 420px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+@media only screen and (max-width: 1650px) {
+  .jcqGXt {
+    display: none;
+  }
+}
+.ljWfRO {
+  height: 280px;
+  position: absolute;
+  right: -16px;
+  top: 60%;
+}
+@media only screen and (max-width: 1000px) {
+  .ljWfRO {
+    display: none;
+  }
+}
+.jdiWPe {
+  height: 220px;
+  position: absolute;
+  left: -16px;
+  top: 150%;
+  z-index: 1;
+}
+@media only screen and (max-width: 1000px) {
+  .jdiWPe {
+    display: none;
+  }
+}
+.jjTcTs {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 36px 12px 0px;
+  text-align: center;
+  z-index: 1;
+}
+.jARayQ {
+  width: 32px;
+  height: 32px;
+}
+.OJJCp {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 64px;
+}
+.OJJCp button {
+  margin: 0px 32px;
+}
+@media only screen and (max-width: 968px) {
+  .OJJCp {
+    flex-direction: column;
+    width: 100%;
+  }
+  .OJJCp button {
+    margin: 32px 0px;
+  }
+}
+.ghCdOs {
+  width: 100%;
+  color: rgb(255, 0, 96);
+}
+@media only screen and (max-width: 1700px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ghCdOs {
+    width: 85%;
+  }
+}
+.kVjkXt {
+  width: 35%;
+  margin-bottom: 110px;
+}
+.jREztg {
+  width: 360px;
+}
+@media only screen and (max-width: 940px) {
+  .jREztg {
+    width: 220px;
+  }
+}
+.cIjgB {
+  width: 650px;
+  margin-bottom: 110px;
+}
+@media only screen and (max-width: 700px) {
+  .cIjgB {
+    width: 90%;
+  }
+}
+.UjHkE {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.iduHXF {
+  width: 100%;
+  height: 8px;
+  margin-top: 32px;
+  background: rgb(255, 0, 96);
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+}
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+  img {
+    border-style: none;
+  }
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button {
+    overflow: visible;
+  }
+  button {
+    text-transform: none;
+  }
+  button {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  button {
+    cursor: pointer;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  div {
+    max-width: none;
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.erCruP {
+  color: rgb(255, 255, 255);
+  font: unset;
+  font-feature-settings: unset;
+  font-kerning: unset;
+  font-optical-sizing: unset;
+  font-variation-settings: unset;
+  forced-color-adjust: unset;
+  text-orientation: unset;
+  text-rendering: unset;
+  -webkit-font-smoothing: unset;
+  -webkit-locale: unset;
+  -webkit-text-orientation: unset;
+  -webkit-writing-mode: unset;
+  writing-mode: unset;
+  zoom: unset;
+  accent-color: unset;
+  align-content: unset;
+  align-items: center;
+  place-self: unset;
+  alignment-baseline: unset;
+  animation: unset;
+  appearance: unset;
+  aspect-ratio: unset;
+  backdrop-filter: unset;
+  backface-visibility: unset;
+  background: rgb(255, 0, 96);
+  background-blend-mode: unset;
+  baseline-shift: unset;
+  block-size: unset;
+  border-block: unset;
+  border: none;
+  border-radius: 100px;
+  border-collapse: unset;
+  border-end-end-radius: unset;
+  border-end-start-radius: unset;
+  border-inline: unset;
+  border-start-end-radius: unset;
+  border-start-start-radius: unset;
+  inset: unset;
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+  box-sizing: unset;
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  buffered-rendering: unset;
+  caption-side: unset;
+  caret-color: unset;
+  clear: unset;
+  clip: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation: unset;
+  color-interpolation-filters: unset;
+  color-rendering: unset;
+  color-scheme: unset;
+  columns: unset;
+  column-fill: unset;
+  gap: unset;
+  column-rule: unset;
+  column-span: unset;
+  contain: unset;
+  contain-intrinsic-size: unset;
+  content: unset;
+  content-visibility: unset;
+  counter-increment: unset;
+  counter-reset: unset;
+  counter-set: unset;
+  cursor: unset;
+  cx: unset;
+  cy: unset;
+  d: unset;
+  display: flex;
+  dominant-baseline: unset;
+  empty-cells: unset;
+  fill: unset;
+  fill-opacity: unset;
+  fill-rule: unset;
+  filter: unset;
+  flex: unset;
+  flex-flow: unset;
+  float: unset;
+  flood-color: unset;
+  flood-opacity: unset;
+  grid: unset;
+  grid-area: unset;
+  height: unset;
+  hyphens: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  inline-size: unset;
+  inset-block: unset;
+  inset-inline: unset;
+  isolation: unset;
+  justify-content: center;
+  justify-items: unset;
+  letter-spacing: unset;
+  lighting-color: unset;
+  line-break: unset;
+  list-style: unset;
+  margin-block: unset;
+  margin: unset;
+  margin-inline: unset;
+  marker: unset;
+  mask: unset;
+  mask-type: unset;
+  max-block-size: unset;
+  max-height: unset;
+  max-inline-size: unset;
+  max-width: unset;
+  min-block-size: unset;
+  min-height: unset;
+  min-inline-size: unset;
+  min-width: unset;
+  mix-blend-mode: unset;
+  object-fit: unset;
+  object-position: unset;
+  offset: unset;
+  opacity: unset;
+  order: unset;
+  origin-trial-test-property: unset;
+  orphans: unset;
+  outline: unset;
+  outline-offset: unset;
+  overflow-anchor: unset;
+  overflow-clip-margin: unset;
+  overflow-wrap: unset;
+  overflow: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior: unset;
+  padding-block: unset;
+  padding: 12px 0px;
+  padding-inline: unset;
+  page: unset;
+  page-orientation: unset;
+  paint-order: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  pointer-events: unset;
+  position: unset;
+  quotes: unset;
+  r: unset;
+  resize: unset;
+  ruby-position: unset;
+  rx: unset;
+  ry: unset;
+  scroll-behavior: unset;
+  scroll-margin-block: unset;
+  scroll-margin: unset;
+  scroll-margin-inline: unset;
+  scroll-padding-block: unset;
+  scroll-padding: unset;
+  scroll-padding-inline: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scrollbar-gutter: unset;
+  shape-image-threshold: unset;
+  shape-margin: unset;
+  shape-outside: unset;
+  shape-rendering: unset;
+  size: unset;
+  speak: unset;
+  stop-color: unset;
+  stop-opacity: unset;
+  stroke: unset;
+  stroke-dasharray: unset;
+  stroke-dashoffset: unset;
+  stroke-linecap: unset;
+  stroke-linejoin: unset;
+  stroke-miterlimit: unset;
+  stroke-opacity: unset;
+  stroke-width: unset;
+  tab-size: unset;
+  table-layout: unset;
+  text-align: unset;
+  text-align-last: unset;
+  text-anchor: unset;
+  text-combine-upright: unset;
+  text-decoration: unset;
+  text-decoration-skip-ink: unset;
+  text-indent: unset;
+  text-overflow: unset;
+  text-shadow: unset;
+  text-size-adjust: unset;
+  text-transform: unset;
+  text-underline-offset: unset;
+  text-underline-position: unset;
+  touch-action: unset;
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  transition: unset;
+  user-select: unset;
+  vector-effect: unset;
+  vertical-align: unset;
+  visibility: unset;
+  -webkit-app-region: unset;
+  border-spacing: unset;
+  -webkit-border-image: unset;
+  -webkit-box-align: center;
+  -webkit-box-decoration-break: unset;
+  -webkit-box-direction: unset;
+  -webkit-box-flex: unset;
+  -webkit-box-ordinal-group: unset;
+  -webkit-box-orient: unset;
+  -webkit-box-pack: center;
+  -webkit-box-reflect: unset;
+  -webkit-highlight: unset;
+  -webkit-hyphenate-character: unset;
+  -webkit-line-break: unset;
+  -webkit-line-clamp: unset;
+  -webkit-mask-box-image: unset;
+  -webkit-mask: unset;
+  -webkit-mask-composite: unset;
+  -webkit-perspective-origin-x: unset;
+  -webkit-perspective-origin-y: unset;
+  -webkit-print-color-adjust: unset;
+  -webkit-rtl-ordering: unset;
+  -webkit-ruby-position: unset;
+  -webkit-tap-highlight-color: unset;
+  -webkit-text-combine: unset;
+  -webkit-text-decorations-in-effect: unset;
+  -webkit-text-emphasis: unset;
+  -webkit-text-emphasis-position: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-security: unset;
+  -webkit-text-stroke: unset;
+  -webkit-transform-origin-x: unset;
+  -webkit-transform-origin-y: unset;
+  -webkit-transform-origin-z: unset;
+  -webkit-user-drag: unset;
+  -webkit-user-modify: unset;
+  white-space: unset;
+  widows: unset;
+  width: 190px;
+  will-change: unset;
+  word-break: unset;
+  word-spacing: unset;
+  x: unset;
+  y: unset;
+  z-index: unset;
+}
+.erCruP:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 96);
+}
+.erCruP span {
+  margin-right: 12px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 22px;
+}
+.oeiUh {
+  color: rgb(255, 255, 255);
+  font: unset;
+  font-feature-settings: unset;
+  font-kerning: unset;
+  font-optical-sizing: unset;
+  font-variation-settings: unset;
+  forced-color-adjust: unset;
+  text-orientation: unset;
+  text-rendering: unset;
+  -webkit-font-smoothing: unset;
+  -webkit-locale: unset;
+  -webkit-text-orientation: unset;
+  -webkit-writing-mode: unset;
+  writing-mode: unset;
+  zoom: unset;
+  accent-color: unset;
+  align-content: unset;
+  align-items: center;
+  place-self: unset;
+  alignment-baseline: unset;
+  animation: unset;
+  appearance: unset;
+  aspect-ratio: unset;
+  backdrop-filter: unset;
+  backface-visibility: unset;
+  background: rgb(18, 21, 27);
+  background-blend-mode: unset;
+  baseline-shift: unset;
+  block-size: unset;
+  border-block: unset;
+  border: 3px solid rgb(255, 0, 96);
+  border-radius: 100px;
+  border-collapse: unset;
+  border-end-end-radius: unset;
+  border-end-start-radius: unset;
+  border-inline: unset;
+  border-start-end-radius: unset;
+  border-start-start-radius: unset;
+  inset: unset;
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+  box-sizing: unset;
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  buffered-rendering: unset;
+  caption-side: unset;
+  caret-color: unset;
+  clear: unset;
+  clip: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation: unset;
+  color-interpolation-filters: unset;
+  color-rendering: unset;
+  color-scheme: unset;
+  columns: unset;
+  column-fill: unset;
+  gap: unset;
+  column-rule: unset;
+  column-span: unset;
+  contain: unset;
+  contain-intrinsic-size: unset;
+  content: unset;
+  content-visibility: unset;
+  counter-increment: unset;
+  counter-reset: unset;
+  counter-set: unset;
+  cursor: unset;
+  cx: unset;
+  cy: unset;
+  d: unset;
+  display: flex;
+  dominant-baseline: unset;
+  empty-cells: unset;
+  fill: unset;
+  fill-opacity: unset;
+  fill-rule: unset;
+  filter: unset;
+  flex: unset;
+  flex-flow: unset;
+  float: unset;
+  flood-color: unset;
+  flood-opacity: unset;
+  grid: unset;
+  grid-area: unset;
+  height: unset;
+  hyphens: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  inline-size: unset;
+  inset-block: unset;
+  inset-inline: unset;
+  isolation: unset;
+  justify-content: center;
+  justify-items: unset;
+  letter-spacing: unset;
+  lighting-color: unset;
+  line-break: unset;
+  list-style: unset;
+  margin-block: unset;
+  margin: unset;
+  margin-inline: unset;
+  marker: unset;
+  mask: unset;
+  mask-type: unset;
+  max-block-size: unset;
+  max-height: unset;
+  max-inline-size: unset;
+  max-width: unset;
+  min-block-size: unset;
+  min-height: unset;
+  min-inline-size: unset;
+  min-width: unset;
+  mix-blend-mode: unset;
+  object-fit: unset;
+  object-position: unset;
+  offset: unset;
+  opacity: unset;
+  order: unset;
+  origin-trial-test-property: unset;
+  orphans: unset;
+  outline: unset;
+  outline-offset: unset;
+  overflow-anchor: unset;
+  overflow-clip-margin: unset;
+  overflow-wrap: unset;
+  overflow: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior: unset;
+  padding-block: unset;
+  padding: 12px 0px;
+  padding-inline: unset;
+  page: unset;
+  page-orientation: unset;
+  paint-order: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  pointer-events: unset;
+  position: unset;
+  quotes: unset;
+  r: unset;
+  resize: unset;
+  ruby-position: unset;
+  rx: unset;
+  ry: unset;
+  scroll-behavior: unset;
+  scroll-margin-block: unset;
+  scroll-margin: unset;
+  scroll-margin-inline: unset;
+  scroll-padding-block: unset;
+  scroll-padding: unset;
+  scroll-padding-inline: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scrollbar-gutter: unset;
+  shape-image-threshold: unset;
+  shape-margin: unset;
+  shape-outside: unset;
+  shape-rendering: unset;
+  size: unset;
+  speak: unset;
+  stop-color: unset;
+  stop-opacity: unset;
+  stroke: unset;
+  stroke-dasharray: unset;
+  stroke-dashoffset: unset;
+  stroke-linecap: unset;
+  stroke-linejoin: unset;
+  stroke-miterlimit: unset;
+  stroke-opacity: unset;
+  stroke-width: unset;
+  tab-size: unset;
+  table-layout: unset;
+  text-align: unset;
+  text-align-last: unset;
+  text-anchor: unset;
+  text-combine-upright: unset;
+  text-decoration: unset;
+  text-decoration-skip-ink: unset;
+  text-indent: unset;
+  text-overflow: unset;
+  text-shadow: unset;
+  text-size-adjust: unset;
+  text-transform: unset;
+  text-underline-offset: unset;
+  text-underline-position: unset;
+  touch-action: unset;
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  transition: unset;
+  user-select: unset;
+  vector-effect: unset;
+  vertical-align: unset;
+  visibility: unset;
+  -webkit-app-region: unset;
+  border-spacing: unset;
+  -webkit-border-image: unset;
+  -webkit-box-align: center;
+  -webkit-box-decoration-break: unset;
+  -webkit-box-direction: unset;
+  -webkit-box-flex: unset;
+  -webkit-box-ordinal-group: unset;
+  -webkit-box-orient: unset;
+  -webkit-box-pack: center;
+  -webkit-box-reflect: unset;
+  -webkit-highlight: unset;
+  -webkit-hyphenate-character: unset;
+  -webkit-line-break: unset;
+  -webkit-line-clamp: unset;
+  -webkit-mask-box-image: unset;
+  -webkit-mask: unset;
+  -webkit-mask-composite: unset;
+  -webkit-perspective-origin-x: unset;
+  -webkit-perspective-origin-y: unset;
+  -webkit-print-color-adjust: unset;
+  -webkit-rtl-ordering: unset;
+  -webkit-ruby-position: unset;
+  -webkit-tap-highlight-color: unset;
+  -webkit-text-combine: unset;
+  -webkit-text-decorations-in-effect: unset;
+  -webkit-text-emphasis: unset;
+  -webkit-text-emphasis-position: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-security: unset;
+  -webkit-text-stroke: unset;
+  -webkit-transform-origin-x: unset;
+  -webkit-transform-origin-y: unset;
+  -webkit-transform-origin-z: unset;
+  -webkit-user-drag: unset;
+  -webkit-user-modify: unset;
+  white-space: unset;
+  widows: unset;
+  width: 270px;
+  will-change: unset;
+  word-break: unset;
+  word-spacing: unset;
+  x: unset;
+  y: unset;
+  z-index: unset;
+}
+.oeiUh:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 96);
+}
+.oeiUh span {
+  margin-right: 12px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 22px;
+}
+.hwvnvs {
+  height: 92px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(18, 21, 27);
+  padding-top: 12px;
+  z-index: 5;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: fixed;
+}
+.dJXsSm {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 12px 36px;
+}
+@media only screen and (max-width: 1012px) {
+  .dJXsSm {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.kksiKu {
+  width: 72px;
+  height: 58px;
+}
+@media only screen and (max-width: 400px) {
+  .kksiKu {
+    display: none;
+  }
+}
+.jcTaHb {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+@media only screen and (max-width: 1012px) {
+  .jcTaHb {
+    display: none;
+  }
+}
+.hydYaP {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  margin: 0px 24px;
+  line-height: 130%;
+}
+.hydYaP:hover {
+  cursor: pointer;
+  color: rgb(255, 0, 97);
+  text-shadow: rgba(255, 0, 97, 0.7) 0px 0px 31px,
+    rgba(255, 0, 97, 0.7) 0px 0px 46px, rgba(255, 0, 97, 0.7) 0px 0px 86px;
+}
+.kMthTr {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.kMthTr button {
+  margin-right: 24px;
+}
+@media only screen and (max-width: 1012px) {
+  .kMthTr {
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.esoBHA {
+  display: flex;
+  width: 100%;
+  background: rgb(19, 19, 19);
+  opacity: 0;
+  z-index: -20;
+  transition: all 0.5s ease 0s;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 0px;
+  pointer-events: none;
+}
+.dgaHRO {
+  padding: 36px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 36px;
+  line-height: 130%;
+}
+.dgaHRO:hover {
+  cursor: default;
+  color: rgb(255, 0, 97);
+  text-shadow: rgba(255, 0, 97, 0.7) 0px 0px 31px,
+    rgba(255, 0, 97, 0.7) 0px 0px 46px, rgba(255, 0, 97, 0.7) 0px 0px 86px;
+}
+.dJdFwe {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 85%, transparent 100%);
+}
+.bAVzgZ {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+  z-index: -5;
+}
+.bAVzgZ::after {
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 85%, transparent 100%);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.jibPFy {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+.DykGo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: 3.5px;
+  animation: 2s ease 0s infinite alternate none running flicker;
+  color: rgb(255, 0, 96);
+  z-index: 1;
+}
+@media only screen and (max-width: 1100px) {
+  .DykGo {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .DykGo {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .DykGo {
+    font-size: 20px;
+  }
+}
+.jEEywD {
+  margin-top: 110px;
+  width: 395px;
+  height: 416px;
+  padding-bottom: 32px;
+  z-index: 1;
+}
+@media only screen and (max-width: 500px) {
+  .jEEywD {
+    width: 240px;
+    height: auto;
+  }
+}
+.iPexDg {
+  width: 1200px;
+  z-index: 1;
+}
+@media only screen and (max-width: 1400px) {
+  .iPexDg {
+    width: 1000px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .iPexDg {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .iPexDg {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .iPexDg {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .iPexDg {
+    width: 100%;
+  }
+}
+.kFmqyc {
+  display: flex;
+  align-items: flex-start;
+}
+.syKsX {
+  display: block;
+  height: 49px;
+  width: 49px;
+  position: relative;
+  font-size: 22px;
+  user-select: none;
+}
+.fxKhJq {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 49px;
+  width: 49px;
+  background: rgb(19, 19, 19);
+  border: 2px solid rgb(255, 0, 97);
+  border-radius: 50%;
+}
+.fxKhJq::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: rgb(255, 0, 97);
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: rgb(255, 0, 97) 0px 0px 31px, rgb(255, 0, 97) 0px 0px 46px,
+    rgb(255, 0, 97) 0px 0px 86px;
+}
+.bxWEWA {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 49px;
+  width: 49px;
+  background: rgb(19, 19, 19);
+  border: 2px solid rgb(255, 0, 97);
+  border-radius: 50%;
+}
+.bxWEWA::after {
+  content: "";
+  position: absolute;
+  display: none;
+  background: rgb(19, 19, 19);
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: rgb(255, 0, 97) 0px 0px 31px, rgb(255, 0, 97) 0px 0px 46px,
+    rgb(255, 0, 97) 0px 0px 86px;
+}
+.eEJWPz {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.eraKfR {
+  display: flex;
+}
+.hKymwP {
+  display: flex;
+  flex-direction: column;
+}
+.biCrYn {
+  position: relative;
+  width: 50%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 960px) {
+  .biCrYn {
+    margin-bottom: 64px;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+}
+.ccTnQh {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 960px) {
+  .ccTnQh {
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+}
+.kpPvTx {
+  width: 324px;
+  height: 324px;
+  margin: 0px 36px;
+  max-width: none;
+}
+@media only screen and (max-width: 960px) {
+  .kpPvTx {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .kpPvTx {
+    width: 300px;
+    height: 300px;
+  }
+}
+.lpaEYv {
+  position: absolute;
+  inset: 0px;
+  margin: auto;
+  width: 212px;
+}
+@media only screen and (max-width: 400px) {
+  .lpaEYv {
+    width: 200px;
+  }
+}
+.cxbltl {
+  text-align: left;
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  line-height: 180%;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25px;
+  margin-left: 58px;
+}
+@media only screen and (max-width: 600px) {
+  .cxbltl {
+    font-size: 22px;
+  }
+}
+.hzzSzX {
+  width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .hzzSzX {
+    width: 300px;
+  }
+}
+.kydRHc {
+  position: absolute;
+  right: 75px;
+  top: 295px;
+  height: 380px;
+}
+@media only screen and (max-width: 960px) {
+  .kydRHc {
+    display: none;
+  }
+}
+.fHUQtx {
+  position: absolute;
+  left: 65px;
+  top: 290px;
+  height: 350px;
+}
+@media only screen and (max-width: 960px) {
+  .fHUQtx {
+    display: none;
+  }
+}
+.hpRDUw {
+  position: absolute;
+  left: -350px;
+  top: -450px;
+  width: 100%;
+}
+@media only screen and (max-width: 960px) {
+  .hpRDUw {
+    display: none;
+  }
+}
+.bojiJp {
+  position: absolute;
+  right: 100px;
+  top: calc(100% - 28px);
+}
+@media only screen and (max-width: 960px) {
+  .bojiJp {
+    display: none;
+  }
+}
+.bYgUJS {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.dvHFX {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  margin: 0px 64px;
+}
+@media only screen and (max-width: 770px) {
+  .dvHFX {
+    flex-direction: column;
+  }
+}
+.fDDjHD {
+  width: 300px;
+}
+.iehvjW {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-left: 45px;
+  color: white;
+}
+@media only screen and (max-width: 770px) {
+  .iehvjW {
+    flex-direction: column;
+    margin: 45px 0px 0px;
+  }
+}
+.hbusih {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.bmCiqb {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(255, 0, 96);
+  box-shadow: rgb(255, 0, 96) 0px 0px 14px;
+}
+.kpuxFf {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(41, 226, 174);
+  box-shadow: rgb(41, 226, 174) 0px 0px 14px;
+}
+.dRsyqq {
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: black;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.jKLUHq {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  font-size: 22px;
+  margin: 23px 0px;
+}
+.lRfdj {
+  position: absolute;
+  top: 120px;
+  right: -12px;
+  height: 400px;
+}
+@media only screen and (max-width: 500px) {
+  .lRfdj {
+    display: none;
+  }
+}
+.bwSYJA {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.kyvWZW {
+  width: 1100px;
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 1150px) {
+  .kyvWZW {
+    width: 950px;
+  }
+}
+.glZmJR {
+  position: absolute;
+  height: 680px;
+  left: -12px;
+  top: -540px;
+}
+@media only screen and (max-width: 1160px) {
+  .glZmJR {
+    display: none;
+  }
+}
+.cFSLxQ {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 90px 0px 0px;
+}
+.lmGFyU {
+  width: 72px;
+  height: 58px;
+}
+.jIfccS {
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 22px;
+  color: rgb(176, 176, 176);
+  margin-top: 32px;
+  z-index: 2;
+}
+.fqbJCS {
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 12px;
+  color: rgb(176, 176, 176);
+  margin-top: 32px;
+  z-index: 2;
+  width: 680px;
+}
+@media only screen and (max-width: 700px) {
+  .fqbJCS {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .fqbJCS {
+    font-size: 10px;
+    width: 320px;
+  }
+}
+.cdTyhF {
+  width: 520px;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+  .cdTyhF {
+    width: 90%;
+  }
+}
+.haQoIp {
+  position: absolute;
+  right: 0%;
+  height: 290px;
+  top: -50px;
+}
+@media only screen and (max-width: 800px) {
+  .haQoIp {
+    height: 230px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .haQoIp {
+    display: none;
+  }
+}
+.eJDRKz {
+  position: absolute;
+  left: 42px;
+  bottom: 0px;
+  height: 180px;
+}
+@media only screen and (max-width: 800px) {
+  .eJDRKz {
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .eJDRKz {
+    height: 30%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .eJDRKz {
+    display: none;
+  }
+}
+.hQhHpX {
+  margin: 32px 0px 48px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 10;
+}
+.hQhHpX svg {
+  margin: 0px 24px;
+  width: 40px;
+  height: 40px;
+}
+.hQhHpX svg:hover {
+  cursor: pointer;
+}
+.enlJuL {
+  display: flex;
+  width: 100%;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 64px 0px;
+}
+.fuJtcf {
+  width: 280px;
+}
+@media only screen and (max-width: 940px) {
+  .fuJtcf {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .fuJtcf {
+    display: none;
+  }
+}
+.jcqGXt {
+  width: 420px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+@media only screen and (max-width: 1650px) {
+  .jcqGXt {
+    display: none;
+  }
+}
+.ljWfRO {
+  height: 280px;
+  position: absolute;
+  right: -16px;
+  top: 60%;
+}
+@media only screen and (max-width: 1000px) {
+  .ljWfRO {
+    display: none;
+  }
+}
+.jdiWPe {
+  height: 220px;
+  position: absolute;
+  left: -16px;
+  top: 150%;
+  z-index: 1;
+}
+@media only screen and (max-width: 1000px) {
+  .jdiWPe {
+    display: none;
+  }
+}
+.jjTcTs {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 36px 12px 0px;
+  text-align: center;
+  z-index: 1;
+}
+.jARayQ {
+  width: 32px;
+  height: 32px;
+}
+.OJJCp {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 64px;
+}
+.OJJCp button {
+  margin: 0px 32px;
+}
+@media only screen and (max-width: 968px) {
+  .OJJCp {
+    flex-direction: column;
+    width: 100%;
+  }
+  .OJJCp button {
+    margin: 32px 0px;
+  }
+}
+.ghCdOs {
+  width: 100%;
+  color: rgb(255, 0, 96);
+}
+@media only screen and (max-width: 1700px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ghCdOs {
+  }
+}
+.kVjkXt {
+  width: 35%;
+  margin-bottom: 110px;
+}
+.jREztg {
+  width: 360px;
+}
+@media only screen and (max-width: 940px) {
+  .jREztg {
+    width: 220px;
+  }
+}
+.cIjgB {
+  width: 650px;
+  margin-bottom: 110px;
+}
+@media only screen and (max-width: 700px) {
+  .cIjgB {
+    width: 90%;
+  }
+}
+.UjHkE {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.iduHXF {
+  width: 100%;
+  height: 8px;
+  margin-top: 32px;
+  background: rgb(255, 0, 96);
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+}
+
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+  img {
+    border-style: none;
+  }
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button {
+    overflow: visible;
+  }
+  button {
+    text-transform: none;
+  }
+  button {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  button {
+    cursor: pointer;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  div {
+    max-width: none;
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.erCruP {
+  color: rgb(255, 255, 255);
+  font: unset;
+  font-feature-settings: unset;
+  font-kerning: unset;
+  font-optical-sizing: unset;
+  font-variation-settings: unset;
+  forced-color-adjust: unset;
+  text-orientation: unset;
+  text-rendering: unset;
+  -webkit-font-smoothing: unset;
+  -webkit-locale: unset;
+  -webkit-text-orientation: unset;
+  -webkit-writing-mode: unset;
+  writing-mode: unset;
+  zoom: unset;
+  accent-color: unset;
+  align-content: unset;
+  align-items: center;
+  place-self: unset;
+  alignment-baseline: unset;
+  animation: unset;
+  appearance: unset;
+  aspect-ratio: unset;
+  backdrop-filter: unset;
+  backface-visibility: unset;
+  background: rgb(255, 0, 96);
+  background-blend-mode: unset;
+  baseline-shift: unset;
+  block-size: unset;
+  border-block: unset;
+  border: none;
+  border-radius: 100px;
+  border-collapse: unset;
+  border-end-end-radius: unset;
+  border-end-start-radius: unset;
+  border-inline: unset;
+  border-start-end-radius: unset;
+  border-start-start-radius: unset;
+  inset: unset;
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+  box-sizing: unset;
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  buffered-rendering: unset;
+  caption-side: unset;
+  caret-color: unset;
+  clear: unset;
+  clip: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation: unset;
+  color-interpolation-filters: unset;
+  color-rendering: unset;
+  color-scheme: unset;
+  columns: unset;
+  column-fill: unset;
+  gap: unset;
+  column-rule: unset;
+  column-span: unset;
+  contain: unset;
+  contain-intrinsic-size: unset;
+  content: unset;
+  content-visibility: unset;
+  counter-increment: unset;
+  counter-reset: unset;
+  counter-set: unset;
+  cursor: unset;
+  cx: unset;
+  cy: unset;
+  d: unset;
+  display: flex;
+  dominant-baseline: unset;
+  empty-cells: unset;
+  fill: unset;
+  fill-opacity: unset;
+  fill-rule: unset;
+  filter: unset;
+  flex: unset;
+  flex-flow: unset;
+  float: unset;
+  flood-color: unset;
+  flood-opacity: unset;
+  grid: unset;
+  grid-area: unset;
+  height: unset;
+  hyphens: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  inline-size: unset;
+  inset-block: unset;
+  inset-inline: unset;
+  isolation: unset;
+  justify-content: center;
+  justify-items: unset;
+  letter-spacing: unset;
+  lighting-color: unset;
+  line-break: unset;
+  list-style: unset;
+  margin-block: unset;
+  margin: unset;
+  margin-inline: unset;
+  marker: unset;
+  mask: unset;
+  mask-type: unset;
+  max-block-size: unset;
+  max-height: unset;
+  max-inline-size: unset;
+  max-width: unset;
+  min-block-size: unset;
+  min-height: unset;
+  min-inline-size: unset;
+  min-width: unset;
+  mix-blend-mode: unset;
+  object-fit: unset;
+  object-position: unset;
+  offset: unset;
+  opacity: unset;
+  order: unset;
+  origin-trial-test-property: unset;
+  orphans: unset;
+  outline: unset;
+  outline-offset: unset;
+  overflow-anchor: unset;
+  overflow-clip-margin: unset;
+  overflow-wrap: unset;
+  overflow: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior: unset;
+  padding-block: unset;
+  padding: 12px 0px;
+  padding-inline: unset;
+  page: unset;
+  page-orientation: unset;
+  paint-order: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  pointer-events: unset;
+  position: unset;
+  quotes: unset;
+  r: unset;
+  resize: unset;
+  ruby-position: unset;
+  rx: unset;
+  ry: unset;
+  scroll-behavior: unset;
+  scroll-margin-block: unset;
+  scroll-margin: unset;
+  scroll-margin-inline: unset;
+  scroll-padding-block: unset;
+  scroll-padding: unset;
+  scroll-padding-inline: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scrollbar-gutter: unset;
+  shape-image-threshold: unset;
+  shape-margin: unset;
+  shape-outside: unset;
+  shape-rendering: unset;
+  size: unset;
+  speak: unset;
+  stop-color: unset;
+  stop-opacity: unset;
+  stroke: unset;
+  stroke-dasharray: unset;
+  stroke-dashoffset: unset;
+  stroke-linecap: unset;
+  stroke-linejoin: unset;
+  stroke-miterlimit: unset;
+  stroke-opacity: unset;
+  stroke-width: unset;
+  tab-size: unset;
+  table-layout: unset;
+  text-align: unset;
+  text-align-last: unset;
+  text-anchor: unset;
+  text-combine-upright: unset;
+  text-decoration: unset;
+  text-decoration-skip-ink: unset;
+  text-indent: unset;
+  text-overflow: unset;
+  text-shadow: unset;
+  text-size-adjust: unset;
+  text-transform: unset;
+  text-underline-offset: unset;
+  text-underline-position: unset;
+  touch-action: unset;
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  transition: unset;
+  user-select: unset;
+  vector-effect: unset;
+  vertical-align: unset;
+  visibility: unset;
+  -webkit-app-region: unset;
+  border-spacing: unset;
+  -webkit-border-image: unset;
+  -webkit-box-align: center;
+  -webkit-box-decoration-break: unset;
+  -webkit-box-direction: unset;
+  -webkit-box-flex: unset;
+  -webkit-box-ordinal-group: unset;
+  -webkit-box-orient: unset;
+  -webkit-box-pack: center;
+  -webkit-box-reflect: unset;
+  -webkit-highlight: unset;
+  -webkit-hyphenate-character: unset;
+  -webkit-line-break: unset;
+  -webkit-line-clamp: unset;
+  -webkit-mask-box-image: unset;
+  -webkit-mask: unset;
+  -webkit-mask-composite: unset;
+  -webkit-perspective-origin-x: unset;
+  -webkit-perspective-origin-y: unset;
+  -webkit-print-color-adjust: unset;
+  -webkit-rtl-ordering: unset;
+  -webkit-ruby-position: unset;
+  -webkit-tap-highlight-color: unset;
+  -webkit-text-combine: unset;
+  -webkit-text-decorations-in-effect: unset;
+  -webkit-text-emphasis: unset;
+  -webkit-text-emphasis-position: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-security: unset;
+  -webkit-text-stroke: unset;
+  -webkit-transform-origin-x: unset;
+  -webkit-transform-origin-y: unset;
+  -webkit-transform-origin-z: unset;
+  -webkit-user-drag: unset;
+  -webkit-user-modify: unset;
+  white-space: unset;
+  widows: unset;
+  width: 190px;
+  will-change: unset;
+  word-break: unset;
+  word-spacing: unset;
+  x: unset;
+  y: unset;
+  z-index: unset;
+}
+.erCruP:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 96);
+}
+.erCruP span {
+  margin-right: 12px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 22px;
+}
+.dJXsSm {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 12px 36px;
+}
+@media only screen and (max-width: 1012px) {
+  .dJXsSm {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.kksiKu {
+  width: 72px;
+  height: 58px;
+}
+@media only screen and (max-width: 400px) {
+  .kksiKu {
+    display: none;
+  }
+}
+.jcTaHb {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+@media only screen and (max-width: 1012px) {
+  .jcTaHb {
+    display: none;
+  }
+}
+.hydYaP {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  margin: 0px 24px;
+  line-height: 130%;
+}
+.hydYaP:hover {
+  cursor: pointer;
+  color: rgb(255, 0, 97);
+  text-shadow: rgba(255, 0, 97, 0.7) 0px 0px 31px,
+    rgba(255, 0, 97, 0.7) 0px 0px 46px, rgba(255, 0, 97, 0.7) 0px 0px 86px;
+}
+.kMthTr {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.kMthTr button {
+  margin-right: 24px;
+}
+@media only screen and (max-width: 1012px) {
+  .kMthTr {
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+  img {
+    border-style: none;
+  }
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button {
+    overflow: visible;
+  }
+  button {
+    text-transform: none;
+  }
+  button {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  button {
+    cursor: pointer;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  div {
+    max-width: none;
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.erCruP {
+  color: rgb(255, 255, 255);
+  font: unset;
+  font-feature-settings: unset;
+  font-kerning: unset;
+  font-optical-sizing: unset;
+  font-variation-settings: unset;
+  forced-color-adjust: unset;
+  text-orientation: unset;
+  text-rendering: unset;
+  -webkit-font-smoothing: unset;
+  -webkit-locale: unset;
+  -webkit-text-orientation: unset;
+  -webkit-writing-mode: unset;
+  writing-mode: unset;
+  zoom: unset;
+  accent-color: unset;
+  align-content: unset;
+  align-items: center;
+  place-self: unset;
+  alignment-baseline: unset;
+  animation: unset;
+  appearance: unset;
+  aspect-ratio: unset;
+  backdrop-filter: unset;
+  backface-visibility: unset;
+  background: rgb(255, 0, 96);
+  background-blend-mode: unset;
+  baseline-shift: unset;
+  block-size: unset;
+  border-block: unset;
+  border: none;
+  border-radius: 100px;
+  border-collapse: unset;
+  border-end-end-radius: unset;
+  border-end-start-radius: unset;
+  border-inline: unset;
+  border-start-end-radius: unset;
+  border-start-start-radius: unset;
+  inset: unset;
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+  box-sizing: unset;
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  buffered-rendering: unset;
+  caption-side: unset;
+  caret-color: unset;
+  clear: unset;
+  clip: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation: unset;
+  color-interpolation-filters: unset;
+  color-rendering: unset;
+  color-scheme: unset;
+  columns: unset;
+  column-fill: unset;
+  gap: unset;
+  column-rule: unset;
+  column-span: unset;
+  contain: unset;
+  contain-intrinsic-size: unset;
+  content: unset;
+  content-visibility: unset;
+  counter-increment: unset;
+  counter-reset: unset;
+  counter-set: unset;
+  cursor: unset;
+  cx: unset;
+  cy: unset;
+  d: unset;
+  display: flex;
+  dominant-baseline: unset;
+  empty-cells: unset;
+  fill: unset;
+  fill-opacity: unset;
+  fill-rule: unset;
+  filter: unset;
+  flex: unset;
+  flex-flow: unset;
+  float: unset;
+  flood-color: unset;
+  flood-opacity: unset;
+  grid: unset;
+  grid-area: unset;
+  height: unset;
+  hyphens: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  inline-size: unset;
+  inset-block: unset;
+  inset-inline: unset;
+  isolation: unset;
+  justify-content: center;
+  justify-items: unset;
+  letter-spacing: unset;
+  lighting-color: unset;
+  line-break: unset;
+  list-style: unset;
+  margin-block: unset;
+  margin: unset;
+  margin-inline: unset;
+  marker: unset;
+  mask: unset;
+  mask-type: unset;
+  max-block-size: unset;
+  max-height: unset;
+  max-inline-size: unset;
+  max-width: unset;
+  min-block-size: unset;
+  min-height: unset;
+  min-inline-size: unset;
+  min-width: unset;
+  mix-blend-mode: unset;
+  object-fit: unset;
+  object-position: unset;
+  offset: unset;
+  opacity: unset;
+  order: unset;
+  origin-trial-test-property: unset;
+  orphans: unset;
+  outline: unset;
+  outline-offset: unset;
+  overflow-anchor: unset;
+  overflow-clip-margin: unset;
+  overflow-wrap: unset;
+  overflow: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior: unset;
+  padding-block: unset;
+  padding: 12px 0px;
+  padding-inline: unset;
+  page: unset;
+  page-orientation: unset;
+  paint-order: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  pointer-events: unset;
+  position: unset;
+  quotes: unset;
+  r: unset;
+  resize: unset;
+  ruby-position: unset;
+  rx: unset;
+  ry: unset;
+  scroll-behavior: unset;
+  scroll-margin-block: unset;
+  scroll-margin: unset;
+  scroll-margin-inline: unset;
+  scroll-padding-block: unset;
+  scroll-padding: unset;
+  scroll-padding-inline: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scrollbar-gutter: unset;
+  shape-image-threshold: unset;
+  shape-margin: unset;
+  shape-outside: unset;
+  shape-rendering: unset;
+  size: unset;
+  speak: unset;
+  stop-color: unset;
+  stop-opacity: unset;
+  stroke: unset;
+  stroke-dasharray: unset;
+  stroke-dashoffset: unset;
+  stroke-linecap: unset;
+  stroke-linejoin: unset;
+  stroke-miterlimit: unset;
+  stroke-opacity: unset;
+  stroke-width: unset;
+  tab-size: unset;
+  table-layout: unset;
+  text-align: unset;
+  text-align-last: unset;
+  text-anchor: unset;
+  text-combine-upright: unset;
+  text-decoration: unset;
+  text-decoration-skip-ink: unset;
+  text-indent: unset;
+  text-overflow: unset;
+  text-shadow: unset;
+  text-size-adjust: unset;
+  text-transform: unset;
+  text-underline-offset: unset;
+  text-underline-position: unset;
+  touch-action: unset;
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  transition: unset;
+  user-select: unset;
+  vector-effect: unset;
+  vertical-align: unset;
+  visibility: unset;
+  -webkit-app-region: unset;
+  border-spacing: unset;
+  -webkit-border-image: unset;
+  -webkit-box-align: center;
+  -webkit-box-decoration-break: unset;
+  -webkit-box-direction: unset;
+  -webkit-box-flex: unset;
+  -webkit-box-ordinal-group: unset;
+  -webkit-box-orient: unset;
+  -webkit-box-pack: center;
+  -webkit-box-reflect: unset;
+  -webkit-highlight: unset;
+  -webkit-hyphenate-character: unset;
+  -webkit-line-break: unset;
+  -webkit-line-clamp: unset;
+  -webkit-mask-box-image: unset;
+  -webkit-mask: unset;
+  -webkit-mask-composite: unset;
+  -webkit-perspective-origin-x: unset;
+  -webkit-perspective-origin-y: unset;
+  -webkit-print-color-adjust: unset;
+  -webkit-rtl-ordering: unset;
+  -webkit-ruby-position: unset;
+  -webkit-tap-highlight-color: unset;
+  -webkit-text-combine: unset;
+  -webkit-text-decorations-in-effect: unset;
+  -webkit-text-emphasis: unset;
+  -webkit-text-emphasis-position: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-security: unset;
+  -webkit-text-stroke: unset;
+  -webkit-transform-origin-x: unset;
+  -webkit-transform-origin-y: unset;
+  -webkit-transform-origin-z: unset;
+  -webkit-user-drag: unset;
+  -webkit-user-modify: unset;
+  white-space: unset;
+  widows: unset;
+  width: 190px;
+  will-change: unset;
+  word-break: unset;
+  word-spacing: unset;
+  x: unset;
+  y: unset;
+  z-index: unset;
+}
+.erCruP:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 96);
+}
+.erCruP span {
+  margin-right: 12px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 22px;
+}
+.byVjmx {
+  height: 92px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  padding-top: 12px;
+  z-index: 5;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: fixed;
+}
+.dJXsSm {
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 12px 36px;
+}
+@media only screen and (max-width: 1012px) {
+  .dJXsSm {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.kksiKu {
+  width: 72px;
+  height: 58px;
+}
+@media only screen and (max-width: 400px) {
+  .kksiKu {
+    display: none;
+  }
+}
+.jcTaHb {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+@media only screen and (max-width: 1012px) {
+  .jcTaHb {
+    display: none;
+  }
+}
+.hydYaP {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  margin: 0px 24px;
+  line-height: 130%;
+}
+.hydYaP:hover {
+  cursor: pointer;
+  color: rgb(255, 0, 97);
+  text-shadow: rgba(255, 0, 97, 0.7) 0px 0px 31px,
+    rgba(255, 0, 97, 0.7) 0px 0px 46px, rgba(255, 0, 97, 0.7) 0px 0px 86px;
+}
+.kMthTr {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.kMthTr button {
+  margin-right: 24px;
+}
+@media only screen and (max-width: 1012px) {
+  .kMthTr {
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}
+.esoBHA {
+  display: flex;
+  width: 100%;
+  background: rgb(19, 19, 19);
+  opacity: 0;
+  z-index: -20;
+  transition: all 0.5s ease 0s;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 0px;
+  pointer-events: none;
+}
+.dgaHRO {
+  padding: 36px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 36px;
+  line-height: 130%;
+}
+.dgaHRO:hover {
+  cursor: default;
+  color: rgb(255, 0, 97);
+  text-shadow: rgba(255, 0, 97, 0.7) 0px 0px 31px,
+    rgba(255, 0, 97, 0.7) 0px 0px 46px, rgba(255, 0, 97, 0.7) 0px 0px 86px;
+}
+
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  img {
+    border-style: none;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.hBWCUB {
+  width: 280px;
+}
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+  img {
+    border-style: none;
+  }
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button {
+    overflow: visible;
+  }
+  button {
+    text-transform: none;
+  }
+  button {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  button {
+    cursor: pointer;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  div {
+    max-width: none;
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  button {
+    line-height: var(--button--line-height);
+    color: var(--button--color-text);
+    cursor: pointer;
+    font-weight: var(--button--font-weight);
+    font-family: var(--button--font-family);
+    font-size: var(--button--font-size);
+    background-color: var(--button--color-background);
+    border-radius: var(--button--border-radius);
+    border-width: 0;
+    text-decoration: none;
+    padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+  }
+  button:before,
+  button:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+  }
+  button:before {
+    margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
+  }
+  button:after {
+    margin-top: -calc(0.5em * var(--button--line-height) + -0.39);
+  }
+  button:not(.has-background):active {
+    color: var(--button--color-text-active);
+    background-color: var(--button--color-background-active);
+  }
+  button:not(.has-background):hover,
+  button:not(.has-background):focus {
+    color: var(--button--color-text-hover);
+    background-color: var(--button--color-background-hover);
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.oeiUh {
+  color: rgb(255, 255, 255);
+  font: unset;
+  font-feature-settings: unset;
+  font-kerning: unset;
+  font-optical-sizing: unset;
+  font-variation-settings: unset;
+  forced-color-adjust: unset;
+  text-orientation: unset;
+  text-rendering: unset;
+  -webkit-font-smoothing: unset;
+  -webkit-locale: unset;
+  -webkit-text-orientation: unset;
+  -webkit-writing-mode: unset;
+  writing-mode: unset;
+  zoom: unset;
+  accent-color: unset;
+  align-content: unset;
+  align-items: center;
+  place-self: unset;
+  alignment-baseline: unset;
+  animation: unset;
+  appearance: unset;
+  aspect-ratio: unset;
+  backdrop-filter: unset;
+  backface-visibility: unset;
+  background: rgb(18, 21, 27);
+  background-blend-mode: unset;
+  baseline-shift: unset;
+  block-size: unset;
+  border-block: unset;
+  border: 3px solid rgb(255, 0, 96);
+  border-radius: 100px;
+  border-collapse: unset;
+  border-end-end-radius: unset;
+  border-end-start-radius: unset;
+  border-inline: unset;
+  border-start-end-radius: unset;
+  border-start-start-radius: unset;
+  inset: unset;
+  box-shadow: rgba(255, 0, 97, 0.7) 0px 0px 14px,
+    rgba(255, 0, 97, 0.7) 0px 0px 15px, rgba(255, 0, 97, 0.7) 0px 0px 26px;
+  box-sizing: unset;
+  break-after: unset;
+  break-before: unset;
+  break-inside: unset;
+  buffered-rendering: unset;
+  caption-side: unset;
+  caret-color: unset;
+  clear: unset;
+  clip: unset;
+  clip-path: unset;
+  clip-rule: unset;
+  color-interpolation: unset;
+  color-interpolation-filters: unset;
+  color-rendering: unset;
+  color-scheme: unset;
+  columns: unset;
+  column-fill: unset;
+  gap: unset;
+  column-rule: unset;
+  column-span: unset;
+  contain: unset;
+  contain-intrinsic-size: unset;
+  content: unset;
+  content-visibility: unset;
+  counter-increment: unset;
+  counter-reset: unset;
+  counter-set: unset;
+  cursor: unset;
+  cx: unset;
+  cy: unset;
+  d: unset;
+  display: flex;
+  dominant-baseline: unset;
+  empty-cells: unset;
+  fill: unset;
+  fill-opacity: unset;
+  fill-rule: unset;
+  filter: unset;
+  flex: unset;
+  flex-flow: unset;
+  float: unset;
+  flood-color: unset;
+  flood-opacity: unset;
+  grid: unset;
+  grid-area: unset;
+  height: unset;
+  hyphens: unset;
+  image-orientation: unset;
+  image-rendering: unset;
+  inline-size: unset;
+  inset-block: unset;
+  inset-inline: unset;
+  isolation: unset;
+  justify-content: center;
+  justify-items: unset;
+  letter-spacing: unset;
+  lighting-color: unset;
+  line-break: unset;
+  list-style: unset;
+  margin-block: unset;
+  margin: unset;
+  margin-inline: unset;
+  marker: unset;
+  mask: unset;
+  mask-type: unset;
+  max-block-size: unset;
+  max-height: unset;
+  max-inline-size: unset;
+  max-width: unset;
+  min-block-size: unset;
+  min-height: unset;
+  min-inline-size: unset;
+  min-width: unset;
+  mix-blend-mode: unset;
+  object-fit: unset;
+  object-position: unset;
+  offset: unset;
+  opacity: unset;
+  order: unset;
+  origin-trial-test-property: unset;
+  orphans: unset;
+  outline: unset;
+  outline-offset: unset;
+  overflow-anchor: unset;
+  overflow-clip-margin: unset;
+  overflow-wrap: unset;
+  overflow: unset;
+  overscroll-behavior-block: unset;
+  overscroll-behavior-inline: unset;
+  overscroll-behavior: unset;
+  padding-block: unset;
+  padding: 12px 0px;
+  padding-inline: unset;
+  page: unset;
+  page-orientation: unset;
+  paint-order: unset;
+  perspective: unset;
+  perspective-origin: unset;
+  pointer-events: unset;
+  position: unset;
+  quotes: unset;
+  r: unset;
+  resize: unset;
+  ruby-position: unset;
+  rx: unset;
+  ry: unset;
+  scroll-behavior: unset;
+  scroll-margin-block: unset;
+  scroll-margin: unset;
+  scroll-margin-inline: unset;
+  scroll-padding-block: unset;
+  scroll-padding: unset;
+  scroll-padding-inline: unset;
+  scroll-snap-align: unset;
+  scroll-snap-stop: unset;
+  scroll-snap-type: unset;
+  scrollbar-gutter: unset;
+  shape-image-threshold: unset;
+  shape-margin: unset;
+  shape-outside: unset;
+  shape-rendering: unset;
+  size: unset;
+  speak: unset;
+  stop-color: unset;
+  stop-opacity: unset;
+  stroke: unset;
+  stroke-dasharray: unset;
+  stroke-dashoffset: unset;
+  stroke-linecap: unset;
+  stroke-linejoin: unset;
+  stroke-miterlimit: unset;
+  stroke-opacity: unset;
+  stroke-width: unset;
+  tab-size: unset;
+  table-layout: unset;
+  text-align: unset;
+  text-align-last: unset;
+  text-anchor: unset;
+  text-combine-upright: unset;
+  text-decoration: unset;
+  text-decoration-skip-ink: unset;
+  text-indent: unset;
+  text-overflow: unset;
+  text-shadow: unset;
+  text-size-adjust: unset;
+  text-transform: unset;
+  text-underline-offset: unset;
+  text-underline-position: unset;
+  touch-action: unset;
+  transform: unset;
+  transform-box: unset;
+  transform-origin: unset;
+  transform-style: unset;
+  transition: unset;
+  user-select: unset;
+  vector-effect: unset;
+  vertical-align: unset;
+  visibility: unset;
+  -webkit-app-region: unset;
+  border-spacing: unset;
+  -webkit-border-image: unset;
+  -webkit-box-align: center;
+  -webkit-box-decoration-break: unset;
+  -webkit-box-direction: unset;
+  -webkit-box-flex: unset;
+  -webkit-box-ordinal-group: unset;
+  -webkit-box-orient: unset;
+  -webkit-box-pack: center;
+  -webkit-box-reflect: unset;
+  -webkit-highlight: unset;
+  -webkit-hyphenate-character: unset;
+  -webkit-line-break: unset;
+  -webkit-line-clamp: unset;
+  -webkit-mask-box-image: unset;
+  -webkit-mask: unset;
+  -webkit-mask-composite: unset;
+  -webkit-perspective-origin-x: unset;
+  -webkit-perspective-origin-y: unset;
+  -webkit-print-color-adjust: unset;
+  -webkit-rtl-ordering: unset;
+  -webkit-ruby-position: unset;
+  -webkit-tap-highlight-color: unset;
+  -webkit-text-combine: unset;
+  -webkit-text-decorations-in-effect: unset;
+  -webkit-text-emphasis: unset;
+  -webkit-text-emphasis-position: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-security: unset;
+  -webkit-text-stroke: unset;
+  -webkit-transform-origin-x: unset;
+  -webkit-transform-origin-y: unset;
+  -webkit-transform-origin-z: unset;
+  -webkit-user-drag: unset;
+  -webkit-user-modify: unset;
+  white-space: unset;
+  widows: unset;
+  width: 270px;
+  will-change: unset;
+  word-break: unset;
+  word-spacing: unset;
+  x: unset;
+  y: unset;
+  z-index: unset;
+}
+.oeiUh:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 96);
+}
+.oeiUh span {
+  margin-right: 12px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 22px;
+}
+.kFmqyc {
+  display: flex;
+  align-items: flex-start;
+}
+.syKsX {
+  display: block;
+  height: 49px;
+  width: 49px;
+  position: relative;
+  font-size: 22px;
+  user-select: none;
+}
+.fxKhJq {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 49px;
+  width: 49px;
+  background: rgb(19, 19, 19);
+  border: 2px solid rgb(255, 0, 97);
+  border-radius: 50%;
+}
+.fxKhJq::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: rgb(255, 0, 97);
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: rgb(255, 0, 97) 0px 0px 31px, rgb(255, 0, 97) 0px 0px 46px,
+    rgb(255, 0, 97) 0px 0px 86px;
+}
+.bxWEWA {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 49px;
+  width: 49px;
+  background: rgb(19, 19, 19);
+  border: 2px solid rgb(255, 0, 97);
+  border-radius: 50%;
+}
+.bxWEWA::after {
+  content: "";
+  position: absolute;
+  display: none;
+  background: rgb(19, 19, 19);
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: rgb(255, 0, 97) 0px 0px 31px, rgb(255, 0, 97) 0px 0px 46px,
+    rgb(255, 0, 97) 0px 0px 86px;
+}
+.eEJWPz {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.eraKfR {
+  display: flex;
+}
+.hKymwP {
+  display: flex;
+  flex-direction: column;
+}
+.biCrYn {
+  position: relative;
+  width: 50%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 960px) {
+  .biCrYn {
+    margin-bottom: 64px;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+}
+.ccTnQh {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 960px) {
+  .ccTnQh {
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+}
+.kpPvTx {
+  width: 324px;
+  height: 324px;
+  margin: 0px 36px;
+  max-width: none;
+}
+@media only screen and (max-width: 960px) {
+  .kpPvTx {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .kpPvTx {
+    width: 300px;
+    height: 300px;
+  }
+}
+.lpaEYv {
+  position: absolute;
+  inset: 0px;
+  margin: auto;
+  width: 212px;
+}
+@media only screen and (max-width: 400px) {
+  .lpaEYv {
+    width: 200px;
+  }
+}
+.cxbltl {
+  text-align: left;
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  line-height: 180%;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25px;
+  margin-left: 58px;
+}
+@media only screen and (max-width: 600px) {
+  .cxbltl {
+    font-size: 22px;
+  }
+}
+.hzzSzX {
+  width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .hzzSzX {
+    width: 300px;
+  }
+}
+.kydRHc {
+  position: absolute;
+  right: 75px;
+  top: 295px;
+  height: 380px;
+}
+@media only screen and (max-width: 960px) {
+  .kydRHc {
+    display: none;
+  }
+}
+.fHUQtx {
+  position: absolute;
+  left: 65px;
+  top: 290px;
+  height: 350px;
+}
+@media only screen and (max-width: 960px) {
+  .fHUQtx {
+    display: none;
+  }
+}
+.hpRDUw {
+  position: absolute;
+  left: -350px;
+  top: -450px;
+  width: 100%;
+}
+@media only screen and (max-width: 960px) {
+  .hpRDUw {
+    display: none;
+  }
+}
+.bojiJp {
+  position: absolute;
+  right: 100px;
+  top: calc(100% - 28px);
+}
+@media only screen and (max-width: 960px) {
+  .bojiJp {
+    display: none;
+  }
+}
+.bYgUJS {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.dvHFX {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  margin: 0px 64px;
+}
+@media only screen and (max-width: 770px) {
+  .dvHFX {
+    flex-direction: column;
+  }
+}
+.fDDjHD {
+  width: 300px;
+}
+.iehvjW {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-left: 45px;
+  color: white;
+}
+@media only screen and (max-width: 770px) {
+  .iehvjW {
+    flex-direction: column;
+    margin: 45px 0px 0px;
+  }
+}
+.hbusih {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.bmCiqb {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(255, 0, 96);
+  box-shadow: rgb(255, 0, 96) 0px 0px 14px;
+}
+.kpuxFf {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(41, 226, 174);
+  box-shadow: rgb(41, 226, 174) 0px 0px 14px;
+}
+.dRsyqq {
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: black;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.jKLUHq {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  font-size: 22px;
+  margin: 23px 0px;
+}
+.lRfdj {
+  position: absolute;
+  top: 120px;
+  right: -12px;
+  height: 400px;
+}
+@media only screen and (max-width: 500px) {
+  .lRfdj {
+    display: none;
+  }
+}
+.bwSYJA {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.hBWCUB {
+  width: 280px;
+}
+.glZmJR {
+  position: absolute;
+  height: 680px;
+  left: -12px;
+  top: -540px;
+}
+@media only screen and (max-width: 1160px) {
+  .glZmJR {
+    display: none;
+  }
+}
+.cFSLxQ {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 90px 0px 0px;
+}
+.lmGFyU {
+  width: 72px;
+  height: 58px;
+}
+.jIfccS {
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 22px;
+  color: rgb(176, 176, 176);
+  margin-top: 32px;
+  z-index: 2;
+}
+.fqbJCS {
+  white-space: pre-line;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 12px;
+  color: rgb(176, 176, 176);
+  margin-top: 32px;
+  z-index: 2;
+  width: 680px;
+}
+@media only screen and (max-width: 700px) {
+  .fqbJCS {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .fqbJCS {
+    font-size: 10px;
+    width: 320px;
+  }
+}
+.cdTyhF {
+  width: 520px;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+  .cdTyhF {
+    width: 90%;
+  }
+}
+.haQoIp {
+  position: absolute;
+  right: 0%;
+  height: 290px;
+  top: -50px;
+}
+@media only screen and (max-width: 800px) {
+  .haQoIp {
+    height: 230px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .haQoIp {
+    display: none;
+  }
+}
+.eJDRKz {
+  position: absolute;
+  left: 42px;
+  bottom: 0px;
+  height: 180px;
+}
+@media only screen and (max-width: 800px) {
+  .eJDRKz {
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .eJDRKz {
+    height: 30%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .eJDRKz {
+    display: none;
+  }
+}
+.hQhHpX {
+  margin: 32px 0px 48px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 10;
+}
+.hQhHpX svg {
+  margin: 0px 24px;
+  width: 40px;
+  height: 40px;
+}
+.hQhHpX svg:hover {
+  cursor: pointer;
+}
+.enlJuL {
+  display: flex;
+  width: 100%;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 64px 0px;
+}
+.fuJtcf {
+  width: 280px;
+}
+@media only screen and (max-width: 940px) {
+  .fuJtcf {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .fuJtcf {
+    display: none;
+  }
+}
+.jcqGXt {
+  width: 420px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+@media only screen and (max-width: 1650px) {
+  .jcqGXt {
+    display: none;
+  }
+}
+.ljWfRO {
+  height: 280px;
+  position: absolute;
+  right: -16px;
+  top: 60%;
+}
+@media only screen and (max-width: 1000px) {
+  .ljWfRO {
+    display: none;
+  }
+}
+.jdiWPe {
+  height: 220px;
+  position: absolute;
+  left: -16px;
+  top: 150%;
+  z-index: 1;
+}
+@media only screen and (max-width: 1000px) {
+  .jdiWPe {
+    display: none;
+  }
+}
+.jjTcTs {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 36px 12px 0px;
+  text-align: center;
+  z-index: 1;
+}
+.jARayQ {
+  width: 32px;
+  height: 32px;
+}
+.OJJCp {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 64px;
+}
+.OJJCp button {
+  margin: 0px 32px;
+}
+@media only screen and (max-width: 968px) {
+  .OJJCp {
+    flex-direction: column;
+    width: 100%;
+  }
+  .OJJCp button {
+    margin: 32px 0px;
+  }
+}
+.ghCdOs {
+  width: 100%;
+  color: rgb(255, 0, 96);
+}
+@media only screen and (max-width: 1700px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ghCdOs {
+    width: 100%;
+  }
+}
+
+.kVjkXt {
+  width: 35%;
+  margin-bottom: 110px;
+}
+.jREztg {
+  width: 360px;
+}
+@media only screen and (max-width: 940px) {
+  .jREztg {
+    width: 220px;
+  }
+}
+.cIjgB {
+  width: 650px;
+  margin-bottom: 110px;
+}
+@media only screen and (max-width: 700px) {
+  .cIjgB {
+    width: 90%;
+  }
+}
+
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  img {
+    border-style: none;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  div {
+    max-width: none;
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.jibPFy {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+.DykGo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: 3.5px;
+  animation: 2s ease 0s infinite alternate none running flicker;
+  color: rgb(255, 0, 96);
+  z-index: 1;
+}
+@media only screen and (max-width: 1100px) {
+  .DykGo {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .DykGo {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .DykGo {
+    font-size: 20px;
+  }
+}
+.jEEywD {
+  margin-top: 110px;
+  width: 395px;
+  height: 416px;
+  padding-bottom: 32px;
+  z-index: 1;
+}
+@media only screen and (max-width: 500px) {
+  .jEEywD {
+    width: 240px;
+    height: auto;
+  }
+}
+.iPexDg {
+  width: 1200px;
+  z-index: 1;
+}
+@media only screen and (max-width: 1400px) {
+  .iPexDg {
+    width: 1000px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .iPexDg {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .iPexDg {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .iPexDg {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .iPexDg {
+    width: 100%;
+  }
+}
+
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  img {
+    border-style: none;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.kyvWZW {
+  width: 1100px;
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 1150px) {
+  .kyvWZW {
+    width: 950px;
+  }
+}
+
+/*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  img {
+    border-style: none;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  .site *:focus {
+    outline-width: 1px;
+    outline-style: dotted;
+    outline-color: var(--global--color-secondary);
+  }
+  div {
+    max-width: none;
+  }
+  ::selection {
+    background-color: var(--global--color-text-selection);
+  }
+  ::-moz-selection {
+    background-color: var(--global--color-text-selection);
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
+/*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
+@media print {
+  @media print {
+    img {
+      page-break-inside: avoid;
+      page-break-after: avoid;
+    }
+  }
+}
+/*! CSS Used from: Embedded */
+.bwSYJA {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.kyvWZW {
+  width: 1100px;
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 1150px) {
+  .kyvWZW {
+    width: 950px;
+  }
+}
+.glZmJR {
+  position: absolute;
+  height: 680px;
+  left: -12px;
+  top: -540px;
+}
+@media only screen and (max-width: 1160px) {
+  .glZmJR {
+    display: none;
+  }
+}
