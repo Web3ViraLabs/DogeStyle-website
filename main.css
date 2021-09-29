@@ -24,6 +24,7 @@
     height: 0;
     width: 0;
   }
+
   button:before {
     margin-bottom: -calc(0.5em * var(--button--line-height) + -0.38);
   }
@@ -127,6 +128,48 @@
     background-color: var(--button--color-background-hover);
   }
 }
+
+/* @media screen and (max-width: 600px) {
+    .mobile-image{
+    display:none;
+  }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .desktop-image{
+    display:none;
+  }
+  } */
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .mobile-image {
+    display: block;
+    height: 700px;
+    width: 250px;
+    margin-bottom: 200px;
+  } /* show it on small screens */
+}
+
+@media screen and (min-width: 501px) and (max-width: 80000px) {
+  .mobile-image {
+    display: none;
+  } /* hide it elsewhere */
+}
+
+@media screen and (min-width: 501px) and (max-width: 80000px) {
+  .desktop-image {
+    display: block;
+    width: 75%;
+    height: 12%;
+  } /* show it on small screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 502px) {
+  .desktop-image {
+    display: none;
+  } /* hide it elsewhere */
+}
+
 /*! CSS Used from: https://babywhitetiger.io/wp-content/themes/seedlet/assets/css/print.css?m=1627378841 ; media=print */
 @media print {
   @media print {
@@ -1001,22 +1044,6 @@
     width: 200px;
   }
 }
-.cxbltl {
-  text-align: left;
-  white-space: pre-line;
-  font-family: Raleway, sans-serif;
-  font-weight: 300;
-  line-height: 180%;
-  font-size: 26px;
-  color: rgb(255, 255, 255);
-  letter-spacing: 0.25px;
-  margin-left: 58px;
-}
-@media only screen and (max-width: 600px) {
-  .cxbltl {
-    font-size: 22px;
-  }
-}
 .hzzSzX {
   width: 400px;
 }
@@ -1025,28 +1052,7 @@
     width: 300px;
   }
 }
-.kydRHc {
-  position: absolute;
-  right: 75px;
-  top: 295px;
-  height: 380px;
-}
-@media only screen and (max-width: 960px) {
-  .kydRHc {
-    display: none;
-  }
-}
-.fHUQtx {
-  position: absolute;
-  left: 65px;
-  top: 290px;
-  height: 350px;
-}
-@media only screen and (max-width: 960px) {
-  .fHUQtx {
-    display: none;
-  }
-}
+
 .hpRDUw {
   position: absolute;
   left: -350px;
@@ -2453,22 +2459,7 @@
     width: 200px;
   }
 }
-.cxbltl {
-  text-align: left;
-  white-space: pre-line;
-  font-family: Raleway, sans-serif;
-  font-weight: 300;
-  line-height: 180%;
-  font-size: 26px;
-  color: rgb(255, 255, 255);
-  letter-spacing: 0.25px;
-  margin-left: 58px;
-}
-@media only screen and (max-width: 600px) {
-  .cxbltl {
-    font-size: 22px;
-  }
-}
+
 .hzzSzX {
   width: 400px;
 }
@@ -2481,21 +2472,10 @@
   position: absolute;
   right: 75px;
   top: 295px;
-  height: 380px;
+  height: 470px;
 }
 @media only screen and (max-width: 960px) {
   .kydRHc {
-    display: none;
-  }
-}
-.fHUQtx {
-  position: absolute;
-  left: 65px;
-  top: 290px;
-  height: 350px;
-}
-@media only screen and (max-width: 960px) {
-  .fHUQtx {
     display: none;
   }
 }
@@ -4466,17 +4446,22 @@
   text-align: left;
   white-space: pre-line;
   font-family: Raleway, sans-serif;
-  font-weight: 300;
-  line-height: 180%;
-  font-size: 26px;
+  font-weight: 150;
+  line-height: 120%;
+  font-size: 22px;
   color: rgb(255, 255, 255);
   letter-spacing: 0.25px;
   margin-left: 58px;
 }
 @media only screen and (max-width: 600px) {
   .cxbltl {
-    font-size: 22px;
+    font-size: 15px;
   }
+}
+@media screen and (min-width: 600px) and (max-width: 80000px) {
+  .cxbltl {
+    margin-right: 180px;
+  } /* show it on small screens */
 }
 .hzzSzX {
   width: 400px;
@@ -4486,22 +4471,12 @@
     width: 300px;
   }
 }
-.kydRHc {
-  position: absolute;
-  right: 75px;
-  top: 295px;
-  height: 380px;
-}
-@media only screen and (max-width: 960px) {
-  .kydRHc {
-    display: none;
-  }
-}
+
 .fHUQtx {
   position: absolute;
   left: 65px;
   top: 290px;
-  height: 350px;
+  height: 480px;
 }
 @media only screen and (max-width: 960px) {
   .fHUQtx {
