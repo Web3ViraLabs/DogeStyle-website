@@ -144,8 +144,6 @@
 @media screen and (min-width: 0px) and (max-width: 500px) {
   .mobile-image {
     display: block;
-    height: 700px;
-    width: 250px;
     margin-bottom: 200px;
   } /* show it on small screens */
 }
@@ -1128,8 +1126,26 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: rgb(255, 0, 96);
-  box-shadow: rgb(255, 0, 96) 0px 0px 14px;
+  background: #ff0061;
+  box-shadow: #ff0061 0px 0px 14px;
+}
+.bmCiqc {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #f569cc;
+  box-shadow: #f569cc 0px 0px 14px;
+}
+.bmCiqd {
+  margin-right: 16px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #cbacff;
+  box-shadow: #cbacff 0px 0px 14px;
 }
 .kpuxFf {
   margin-right: 16px;
@@ -1137,8 +1153,8 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background: rgb(41, 226, 174);
-  box-shadow: rgb(41, 226, 174) 0px 0px 14px;
+  background: #b7d8ff;
+  box-shadow: #b7d8ff 0px 0px 14px;
 }
 .dRsyqq {
   display: block;
@@ -2548,24 +2564,7 @@
   -webkit-box-align: center;
   align-items: center;
 }
-.bmCiqb {
-  margin-right: 16px;
-  position: relative;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: rgb(255, 0, 96);
-  box-shadow: rgb(255, 0, 96) 0px 0px 14px;
-}
-.kpuxFf {
-  margin-right: 16px;
-  position: relative;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: rgb(41, 226, 174);
-  box-shadow: rgb(41, 226, 174) 0px 0px 14px;
-}
+
 .dRsyqq {
   display: block;
   position: absolute;
@@ -4552,24 +4551,7 @@
   -webkit-box-align: center;
   align-items: center;
 }
-.bmCiqb {
-  margin-right: 16px;
-  position: relative;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: rgb(255, 0, 96);
-  box-shadow: rgb(255, 0, 96) 0px 0px 14px;
-}
-.kpuxFf {
-  margin-right: 16px;
-  position: relative;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: rgb(41, 226, 174);
-  box-shadow: rgb(41, 226, 174) 0px 0px 14px;
-}
+
 .dRsyqq {
   display: block;
   position: absolute;
