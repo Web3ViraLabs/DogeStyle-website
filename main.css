@@ -1,4 +1,8 @@
 /*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
+html {
+  scroll-behavior: smoothscroll;
+}
+
 @media all {
   * {
     box-sizing: border-box;
@@ -1452,6 +1456,8 @@
 .cIjgB {
   width: 650px;
   margin-bottom: 110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 700px) {
   .cIjgB {
@@ -2488,7 +2494,7 @@
   position: absolute;
   right: 75px;
   top: 295px;
-  height: 470px;
+  height: 680px;
 }
 @media only screen and (max-width: 960px) {
   .kydRHc {
@@ -2862,15 +2868,7 @@
     width: 220px;
   }
 }
-.cIjgB {
-  width: 650px;
-  margin-bottom: 110px;
-}
-@media only screen and (max-width: 700px) {
-  .cIjgB {
-    width: 90%;
-  }
-}
+
 .UjHkE {
   min-height: 100%;
   width: 100%;
@@ -3827,6 +3825,7 @@
 }
 .kMthTr button {
   margin-right: 24px;
+  border-radius: 20px;
 }
 @media only screen and (max-width: 1012px) {
   .kMthTr {
@@ -4475,7 +4474,7 @@
   position: absolute;
   left: 65px;
   top: 290px;
-  height: 480px;
+  height: 700px;
 }
 @media only screen and (max-width: 960px) {
   .fHUQtx {
@@ -4840,15 +4839,6 @@
     width: 220px;
   }
 }
-.cIjgB {
-  width: 650px;
-  margin-bottom: 110px;
-}
-@media only screen and (max-width: 700px) {
-  .cIjgB {
-    width: 90%;
-  }
-}
 
 /*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
 @media all {
@@ -5096,4 +5086,106 @@
   .glZmJR {
     display: none;
   }
+}
+
+.hamburger1 {
+  height: 45px;
+  margin: 10px;
+  position: fixed;
+  z-index: 120;
+}
+
+.hamburger1 div {
+  background-color: white;
+  margin-left: 290px;
+  position: relative;
+  width: 40px;
+  height: 5px;
+  margin-top: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#toggle1 {
+  display: none;
+}
+
+#toggle1:checked + .hamburger1 .top {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-top: 22.5px;
+}
+
+#toggle1:checked + .hamburger1 .meat {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: -5px;
+}
+
+#toggle1:checked + .hamburger1 .bottom {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+#toggle1:checked ~ .menu1 {
+  height: 340px;
+}
+
+/* Menu */
+.menu1 {
+  width: 100%;
+  background-color: transparent;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 25px;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.4s ease;
+  z-index: 120;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu1 a:first-child {
+  margin-top: 40px;
+}
+.menu1 a:hover {
+  color: yellowgreen;
+}
+.menu1 a:last-child {
+  margin-bottom: 40px;
+}
+
+.link1 {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  font: 700 20px "Oswald", sans-serif;
+}
+
+.link1:hover {
+  background-color: transparent;
+  color: rgb(61, 61, 61);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  #navbar {
+    display: block;
+    margin-bottom: 20px;
+  } /* show it on small screens */
+}
+
+@media screen and (min-width: 901px) and (max-width: 80000px) {
+  #navbar {
+    display: none;
+  } /* hide it elsewhere */
 }
