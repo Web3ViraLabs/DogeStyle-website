@@ -1,6 +1,6 @@
 /*! CSS Used from: https://babywhitetiger.io/_static/??-eJyNkNFSxCAMRX9ISruOui+O3xJChrINlIFgp38vHftQq6u+MCS5B27ukhTOUSiKTlydj0W72kpD2WlTPVtteMZJsTcZ8qqLrEwdlvKwfEcZ1rmKctnbr0Ifkaulom9FB7IeiCls5LFIDaesmBzg2gUf/6Tb7FgfmbO1TICSMpWiUzXsUTfhoas+u2f8gEFKRRsw6zJ6IfGO8p5QEZD9wQDNgrVw6bG/dDjWON1zdCNJgJMOs63clmM/tfPHfGVs+7UZkWWSf2laZi0enIP6TW0Y4qQQ4jvc+frsdltyv2/St/A6PD8OL9fr09B/AGvD4C4= ; media=all */
 html {
-  scroll-behavior: smoothscroll;
+  scroll-behavior: smooth;
 }
 
 @media all {
