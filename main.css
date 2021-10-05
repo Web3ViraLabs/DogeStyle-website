@@ -4942,7 +4942,7 @@ html {
 }
 @media only screen and (max-width: 1100px) {
   .iPexDg {
-    width: 800px;
+    width: 777px;
   }
 }
 @media only screen and (max-width: 880px) {
@@ -4957,7 +4957,7 @@ html {
 }
 @media only screen and (max-width: 540px) {
   .iPexDg {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -5188,4 +5188,9 @@ html {
   #navbar {
     display: none;
   } /* hide it elsewhere */
+}
+
+#bgvideo{
+  position:fixed;
+  z-index:-1;
 }
