@@ -28,8 +28,68 @@
     <script src="https://connect.facebook.net/signals/config/447735309593234?v=2.9.46&amp;r=stable" async=""></script>
     <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
     <script>
-        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/babywhitetiger.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1" } };
-        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+        window.onscroll = () => {
+            const nav = document.querySelector('#cnav');
+            if (this.scrollY <= 200) nav.className = 'hwvnvs';
+            else nav.className = 'scroll';
+        };
+    </script>
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/babywhitetiger.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"
+            }
+        };
+        ! function (e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode;
+                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                e = i.toDataURL();
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function (e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([
+                            55356, 56826, 55356, 56819
+                        ], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418,
+                            56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447
+                        ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203,
+                            56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447
+                        ]);
+                    case "emoji":
+                        return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t
+                .supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+                .readyCallback = function () {
+                    t.DOMReady = !0
+                }, t.supports.everything || (n = function () {
+                    t.readyCallback()
+                }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load",
+                    n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
+                    "complete" === a.readyState && t.readyCallback()
+                })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji),
+                    c(n.wpemoji)))
+        }(window, document, window._wpemojiSettings);
     </script>
     <script src="https://babywhitetiger.io/wp-includes/js/wp-emoji-release.min.js?ver=5.8.1" type="text/javascript"
         defer=""></script>
@@ -436,7 +496,8 @@
     </style>
     <script src="https://babywhitetiger.io/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
     <script type="text/javascript"
-        src="https://babywhitetiger.io/_static/??wp-includes/js/jquery/jquery-migrate.min.js,wp-content/plugins/reactpress/public/js/reactpress-public.js?m=1628492516"></script>
+        src="https://babywhitetiger.io/_static/??wp-includes/js/jquery/jquery-migrate.min.js,wp-content/plugins/reactpress/public/js/reactpress-public.js?m=1628492516">
+    </script>
     <link rel="https://api.w.org/" href="https://babywhitetiger.io/wp-json/">
     <link rel="alternate" type="application/json" href="https://babywhitetiger.io/wp-json/wp/v2/pages/17">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://babywhitetiger.io/xmlrpc.php?rsd">
@@ -519,9 +580,7 @@
             color: #fafafa
         }
     </style>
-    <link rel="icon"
-        href="https://cdn.discordapp.com/attachments/892193453956558878/892193575100645456/logo.png"
->
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/892193453956558878/892193575100645456/logo.png">
     <!-- <link rel="icon"
         href="https://i1.wp.com/babywhitetiger.io/wp-content/uploads/2021/08/cropped-cropped-babywhitetiger_hero-1.png?fit=192%2C192&amp;ssl=1"
         sizes="192x192">
@@ -551,28 +610,31 @@
         <div id="content" class="site-content">
             <div id="root">
                 <div class="App">
-                    <div class="sc-gtsrHT hwvnvs">
+                    <div id="cnav" class="sc-gtsrHT hwvnvs">
                         <div class="sc-dlnjwi dJXsSm">
-                            <img src="https://cdn.discordapp.com/attachments/892193453956558878/892193575100645456/logo.png"
-                                alt="Logo" class="" style="height: 70px; width: 70px;margin-left: -20px;">
-                            <div class="sc-jSFjdj jcTaHb">
-                                <a class="sc-gKAaRy hydYaP" href="#1">Roadmap</a>
-                                <a class="sc-gKAaRy hydYaP" href="#2">Tokenomics</a>
-                                <a class="sc-gKAaRy hydYaP" href="#3">Distribution</a>
-                            </div>
-                            <div class="sc-iCoGMd kMthTr" style="padding-bottom: 23px;">
-                                <button type="navbar" class="sc-bdnxRM erCruP" style="margin-left: 25px;">
-                                    <span>Join
-                                        Us</span>
-                                    <svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512"
-                                        xmlns="http://www.w3.org/2000/svg" style="width: 28px; height: 28px;">
-                                        <circle cx="12" cy="12" fill="#039be5" r="12"></circle>
-                                        <path
-                                            d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"
-                                            fill="#fff"></path>
-                                    </svg>
-                                </button>
-                            </div>
+                             <a href="#"><img
+                                src="https://cdn.discordapp.com/attachments/892193453956558878/892193575100645456/logo.png"
+                                alt="Logo" 
+                                style="height: 59px; width: 85px;margin-left: -20px; position: relative;top: -10px;"></a>
+                                <div class="sc-jSFjdj jcTaHb">
+                                    <a class="sc-gKAaRy hydYaP" href="#1">Roadmap</a>
+                                    <a class="sc-gKAaRy hydYaP" href="#2">Tokenomics</a>
+                                    <a class="sc-gKAaRy hydYaP" href="#3">Distribution</a>
+                                </div>
+                                <div class="sc-iCoGMd kMthTr" style="padding-bottom: 23px;">
+                                    <button type="navbar" class="sc-bdnxRM erCruP" style="margin-left: 25px;">
+                                        <span>Join
+                                            Us</span>
+                                        <svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24"
+                                            width="512" xmlns="http://www.w3.org/2000/svg"
+                                            style="width: 28px; height: 28px;">
+                                            <circle cx="12" cy="12" fill="#039be5" r="12"></circle>
+                                            <path
+                                                d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"
+                                                fill="#fff"></path>
+                                        </svg>
+                                    </button>
+                                </div>
                         </div>
                         <div opacity="0" class="sc-fujyAs esoBHA">
                             <a opacity="0" class="sc-pNWdM dgaHRO" href="#1">Roadmap</a>
@@ -580,15 +642,17 @@
                             <a opacity="0" class="sc-pNWdM dgaHRO" href="#3">Distribution</a>
                         </div>
                     </div>
-                    <nav style="z-index: 100;" id="navbar" class="navigation" role="navigation" onclick="window.scrollTo(0, 0);">
-                        <input id="toggle1" type="checkbox" />
+                    <nav style="z-index: 100;" id="navbar" class="navigation" role="navigation"
+                        onclick="window.scrollTo(0, 0);">
+                        <input  id="toggle1" type="checkbox" />
                         <label class="hamburger1" for="toggle1" style="margin-top:30px;">
                             <div class="top"></div>
                             <div class="meat"></div>
                             <div class="bottom"></div>
                         </label>
                         <nav class="menu1">
-                            <a style="color:white" class="link1" href=""> </a><!--dont remove this u dummy -->
+                            <a style="color:white" class="link1" href=""> </a>
+                            <!--dont remove this u dummy -->
                             <a style="color:white" class="link1" href="#1">Roadmap</a>
                             <a style="color:white" class="link1" href="#2">Tokenomics</a>
                             <a style="color:white" class="link1" href="#3">Distribution</a>
@@ -596,7 +660,8 @@
                     </nav>
                     <div class="sc-jrsJWt dJdFwe">
                         <div class="sc-iqAclL jibPFy">
-                            <video id="bgvideo" src="assets/bgvideo.mp4" poster="assets/poster.jpg" autoplay muted loop></video>
+                            <video id="bgvideo" src="assets/bgvideo.mp4" poster="assets/poster.jpg" autoplay muted
+                                loop></video>
 
                             <img src="https://cdn.discordapp.com/attachments/892193453956558878/892194229584003082/Full_Version.png"
                                 alt="BWT Logo" class="sc-bqGGPW iPexDg">
@@ -632,7 +697,7 @@
                             alt="Roadmap" class="sc-FRrlG cIjgB">
                         <div class="sc-fFSPTT eEJWPz" id="about">
                             <div class="sc-hHEiqL ccTnQh">
-                                <div class="sc-dIvrsQ biCrYn" style="padding-top: 90px;">
+                                <div class="sc-dIvrsQ biCrYn" style="padding-top: 20px;">
                                     <div style="margin: 0px 36px; position: relative;"><img
                                             src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/ellipse.8b2292cc.svg"
                                             alt="Ellipse" class="sc-dlMDgC kpPvTx"><img
@@ -677,7 +742,7 @@
                                 </div>
                             </div>
                             <div class="sc-hHEiqL ccTnQh">
-                                <div class="sc-dIvrsQ biCrYn" style="padding-top: 90px;">
+                                <div class="sc-dIvrsQ biCrYn" style="padding-top: 20px;">
                                     <div style="margin: 0px 36px; position: relative;"><img
                                             src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/ellipse.8b2292cc.svg"
                                             alt="Ellipse" class="sc-dlMDgC kpPvTx"><img
@@ -719,7 +784,7 @@
                                 </div>
                             </div>
                             <div class="sc-hHEiqL ccTnQh">
-                                <div class="sc-dIvrsQ biCrYn" style="padding-top: 90px;">
+                                <div class="sc-dIvrsQ biCrYn" style="padding-top: 20px;">
                                     <div style="margin: 0px 36px; position: relative;"><img
                                             src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/ellipse.8b2292cc.svg"
                                             alt="Ellipse" class="sc-dlMDgC kpPvTx"><img
@@ -729,7 +794,7 @@
                                             alt="RightBottom" class="sc-iJCRrE bojiJp"></div>
                                 </div>
                                 <div class="sc-bkbkJK eraKfR">
-                                    <div class="sc-iemWCZ hKymwP" style="padding-top: 110px;">
+                                    <div class="sc-iemWCZ hKymwP" style="padding-top: 30px;">
                                         <div class="sc-ksluID kFmqyc">
                                             <div class="sc-hBMUJo syKsX"><span class="sc-fnVZcZ bxWEWA"></span>
                                             </div>
@@ -751,23 +816,29 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sc-hTRkXV enlJuL" id="2"><img
-                                src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/arrow-left.d733051a.png"
+                        <div class="sc-hTRkXV enlJuL" id="2">
+
+                            <img src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/arrow-left.d733051a.png"
                                 alt="ArrowLeft" class="sc-jgPyTC fuJtcf"><img
                                 src="https://cdn.discordapp.com/attachments/892193453956558878/892383860317384704/pyramid.png"
                                 alt="Pyramid" class="sc-fbIWvP jREztg"><img
                                 src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/arrow-right.2af99416.png"
                                 alt="ArrowRight" class="sc-jgPyTC fuJtcf"><img
                                 src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/disc.3e5f4c89.png"
-                                alt="Disc" class="sc-gSYDnn jcqGXt"></div>
+                                alt="Disc" class="sc-gSYDnn jcqGXt">
+                        </div>
+
                         <img src="https://cdn.discordapp.com/attachments/892193453956558878/892383045817098280/tokenomics.png"
                             alt="Tokenomics" class="sc-FRrlG cIjgB">
+
                         <div class="sc-giAqHp bYgUJS">
+
                             <img src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/sim.5ad4f2f6.png"
                                 alt="Sim" class="sc-cBoqAE lRfdj">
                             <div class="sc-ezzafa dvHFX">
                                 <img src="https://cdn.discordapp.com/attachments/892193453956558878/892919742162149407/imageedit_187_9351829614.png"
                                     alt="BuyChart" class="sc-bYwzuL fDDjHD">
+
                                 <div class="sc-kLojOw iehvjW">
                                     <div class="sc-iklJeh hbusih">
                                         <div color="#FF0061" class="sc-jJMGnK bmCiqb"><span
@@ -791,6 +862,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <img style=" z-index: -1 ; " src="assets/foot.png" alt="footprint">
                         </div>
                         <div class="sc-hTRkXV enlJuL" id="3"><img
                                 src="https://babywhitetiger.io/wp-content/reactpress/apps/babywhitetiger/build/static/media/arrow-left.d733051a.png"
@@ -921,11 +993,11 @@
                                         <g></g>
                                     </svg>
                                 </div>
-                               
+
                                 <div class="sc-jNnpgg jIfccS">© 2021 DogeStyle
                                     All Rights Reserved
                                 </div>
-                               
+
                             </div>
                         </div>
                         <div class="sc-dvXYtj iduHXF"></div>
@@ -953,26 +1025,51 @@
         <script defer="" id="bilmur" data-provider="wordpress.com" data-service="atomic"
             src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202139"></script>
         <script id="rp-react-app-asset-0-js-extra">
-            var reactPress = { "user": { "data": {}, "ID": 0, "caps": [], "cap_key": null, "roles": [], "allcaps": [], "filter": null }, "usermeta": "" };
+            var reactPress = {
+                "user": {
+                    "data": {},
+                    "ID": 0,
+                    "caps": [],
+                    "cap_key": null,
+                    "roles": [],
+                    "allcaps": [],
+                    "filter": null
+                },
+                "usermeta": ""
+            };
         </script>
         <script
             src="https://babywhitetiger.io/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/intersection-observer.js?ver=1.1.3"
             id="jetpack-lazy-images-polyfill-intersectionobserver-js"></script>
         <script id="jetpack-lazy-images-js-extra">
-            var jetpackLazyImagesL10n = { "loading_warning": "Images are still loading. Please cancel your print and try again." };
+            var jetpackLazyImagesL10n = {
+                "loading_warning": "Images are still loading. Please cancel your print and try again."
+            };
         </script>
         <script
             src="https://babywhitetiger.io/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/../dist/lazy-images.js?ver=1.1.3"
             id="jetpack-lazy-images-js"></script>
-        <script type="text/javascript"
-            src="https://babywhitetiger.io/wp-includes/js/wp-embed.min.js?m=1609946964"></script>
+        <script type="text/javascript" src="https://babywhitetiger.io/wp-includes/js/wp-embed.min.js?m=1609946964">
+        </script>
         <script>
-            /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }, !1);
+            /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window
+                .addEventListener("hashchange", function () {
+                    var t, e = location.hash.substring(1);
+                    /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (
+                        /^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus())
+                }, !1);
         </script>
         <script src="https://stats.wp.com/e-202139.js" defer=""></script>
         <script>
             _stq = window._stq || [];
-            _stq.push(['view', { v: 'ext', j: '1:10.1', blog: '196339730', post: '17', tz: '2', srv: 'babywhitetiger.io' }]);
+            _stq.push(['view', {
+                v: 'ext',
+                j: '1:10.1',
+                blog: '196339730',
+                post: '17',
+                tz: '2',
+                srv: 'babywhitetiger.io'
+            }]);
             _stq.push(['clickTrackerInit', '196339730', '17']);
         </script>
         <!--
@@ -996,9 +1093,11 @@
                             var parent = elem.parentElement || head;
                             parent.removeChild(elem);
                             var rel = elem.rel;
-                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
+                                "stylesheet") {
                                 var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (
+                                    new Date().valueOf());
                             }
                             parent.appendChild(elem);
                         }
@@ -1015,11 +1114,10 @@
                         sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
                     }
                 })();
-            }
-            else {
+            } else {
                 console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
             }
-          // ]]>
+            // ]]>
         </script>
         <img src="http://pixel.wp.com/g.gif?v=ext&amp;j=1%3A10.1&amp;blog=196339730&amp;post=17&amp;tz=2&amp;srv=babywhitetiger.io&amp;host=127.0.0.1%3A5500&amp;ref=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&amp;fcp=0&amp;rand=0.5113359755899354"
             alt=":)" width="6" height="5" id="wpstats">
@@ -1036,9 +1134,11 @@
                             var parent = elem.parentElement || head;
                             parent.removeChild(elem);
                             var rel = elem.rel;
-                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
+                                "stylesheet") {
                                 var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (
+                                    new Date().valueOf());
                             }
                             parent.appendChild(elem);
                         }
@@ -1055,11 +1155,10 @@
                         sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
                     }
                 })();
-            }
-            else {
+            } else {
                 console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
             }
-          // ]]>
+            // ]]>
         </script>
         <img src="http://pixel.wp.com/g.gif?v=ext&amp;j=1%3A10.1&amp;blog=196339730&amp;post=17&amp;tz=2&amp;srv=babywhitetiger.io&amp;host=127.0.0.1%3A5500&amp;ref=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&amp;fcp=0&amp;rand=0.23405154182740096"
             alt=":)" width="6" height="5" id="wpstats">
