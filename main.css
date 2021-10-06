@@ -87,10 +87,10 @@ a {
     max-width: none;
   }
   ::selection {
-    background-color: var(--global--color-text-selection);
+    background-color: rgb(146 192 62);
   }
   ::-moz-selection {
-    background-color: var(--global--color-text-selection);
+    background-color:rgb(146 192 62);
   }
   img {
     height: auto;
